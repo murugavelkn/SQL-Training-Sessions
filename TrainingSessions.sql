@@ -51,7 +51,7 @@ INSERT INTO dbo.Employee ( Empno,EmpName,DOB,Salary,MGR,age) VALUES ('10003148',
  -- Query Execution
  DELETE FROM Employee --WHERE Empno = '10003148'
 
- 
+
  -- Syntax
  UPDATE <tblName> SET <colName> = <Value> [WHERE <Condition>]
 
@@ -71,20 +71,20 @@ INSERT INTO dbo.Employee ( Empno,EmpName,DOB,Salary,MGR,age) VALUES ('10003148',
 
 -- SESSION 2 :
 -- DQL - Data Query Language
--- 
+--
 
 -- Syntax
 SELECT <clause>, Aggregatefun()/CalculativeColumn AS <Alias Name>
 FROM <clause>
 {WHERE <clause> | HAVING <Condition> -- for aggregatefunction to filter }
 {ORDER BY Columnname1, columnname2,...[ASC/DESC]}   -- Called as sorting asc :=  Min to Max;  Desc : = Max to Min
-{GROUP BY ColunmName2, ColumnName2,...} -- can be use when aggregate function involves 
+{GROUP BY ColunmName2, ColumnName2,...} -- can be use when aggregate function involves
 										-- COUNT(), SUM(),MAX(),MIN().AVG(),...
 										-- with colunmName1,columName2...
 
 
 --/*------------------------------------------------------------------------
-SELECT <columnname1, columname2, columnname3...... 
+SELECT <columnname1, columname2, columnname3......
 FROM <TABLE NAME>
 WHERE <Conditions>
 
@@ -97,32 +97,32 @@ FROM [Sales].[SalesOrderDetail]
 
 
 -- AND Condition
-SELECT * 
-FROM [Sales].[SalesOrderDetail] 
+SELECT *
+FROM [Sales].[SalesOrderDetail]
 WHERE ProductID = 712 AND orderQty > 4 AND orderQty <=8 AND ModifiedDate = '2012-06-30'
 
 
 -- BETWEEN
 SELECT *
-FROM [Sales].[SalesOrderDetail] 
+FROM [Sales].[SalesOrderDetail]
 WHERE ProductId = 712 AND ORDERQty BETWEEN 4 AND 8 AND ModifiedDate BETWEEN '2012-01-01' AND '2012-03-15'
 
 
 -- OR
-SELECT * 
+SELECT *
 FROM [Sales].[SalesOrderDetail]
 WHERE ProductID = 712 OR ProductID = 711
 
 -- IN
 
-SELECT * 
+SELECT *
 FROM [Sales].[SalesOrderDetail]
 WHERE ProductID  IN (711,712)
 
 
 --NOT IN
 
-SELECT * 
+SELECT *
 FROM [Sales].[SalesOrderDetail]
 WHERE ProductID NOT IN (711,712)
 
@@ -130,7 +130,7 @@ WHERE ProductID NOT IN (711,712)
 -- ORDER BY
 SELECT *
 FROM [Sales].[SalesOrderDetail]
-ORDER BY ProductID 
+ORDER BY ProductID
 
 -- ORDER BY
 SELECT *
@@ -145,7 +145,7 @@ ORDER BY ProductID DESC
 -- ORDER BY
 SELECT *
 FROM [Sales].[SalesOrderDetail]
-ORDER BY ProductID, SalesOrderID 
+ORDER BY ProductID, SalesOrderID
 
 -- ORDER BY
 SELECT *
@@ -160,7 +160,7 @@ ORDER BY ProductID asc, SalesOrderID DESC
 -- ORDER BY
 SELECT *
 FROM [Sales].[SalesOrderDetail]
-ORDER BY ProductID desc, SalesOrderID 
+ORDER BY ProductID desc, SalesOrderID
 
 SELECT *
 FROM [Sales].[SalesOrderDetail]
@@ -179,19 +179,19 @@ GROUP BY ProductID         -- GROUP BY USED because grouping ColumnName (Product
 
 
 -- GROUP BY
-SELECT ProductID, SUM(orderQty) 
+SELECT ProductID, SUM(orderQty)
 FROM [Sales].[SalesOrderDetail]
 GROUP BY ProductID
 ORDER BY ProductID    -- GROUP BY Result ORDER By using Grouping ColumnName.
 
 -- GROUP BY
-SELECT ProductID, SUM(orderQty) 
+SELECT ProductID, SUM(orderQty)
 FROM [Sales].[SalesOrderDetail]
 GROUP BY ProductID
-ORDER BY ProductID 
+ORDER BY ProductID
 
 -- GROUP BY
-SELECT ProductID, SUM(orderQty) 
+SELECT ProductID, SUM(orderQty)
 FROM [Sales].[SalesOrderDetail]
 GROUP BY ProductID
 ORDER BY ProductID DESC
@@ -200,12 +200,12 @@ ORDER BY ProductID DESC
 SELECT ProductID, SUM(orderQty) AS TotalQty
 FROM [Sales].[SalesOrderDetail]
 GROUP BY ProductID
-ORDER BY ProductID 
+ORDER BY ProductID
 
 SELECT ProductID, SUM(orderQty) AS TotalQty
 FROM [Sales].[SalesOrderDetail]
 GROUP BY ProductID
-ORDER BY SUM(orderQty) 
+ORDER BY SUM(orderQty)
 
 
 SELECT TOP 5 ProductID, SUM(orderQty) AS TotalQty
@@ -234,7 +234,7 @@ GROUP BY ProductID
 1. WHERE clause not used with Aggregate function
 2. Aggregate function filters are used by using HAVING condition (Ex. Count(SalesOrderQty) > 2500) Clause
 3. WHERE Clause should after FROM Clause
-4. HAVING Clause should after GROUP BY 
+4. HAVING Clause should after GROUP BY
 */
 
 SELECT ProductID, COUNT(SalesOrderID) AS cnt
@@ -242,13 +242,13 @@ FROM [Sales].[SalesOrderDetail]
 GROUP BY ProductID
 HAVING COUNT(SalesOrderID) > 2500
 ORDER BY COUNT(SalesOrderID) desc
- 
+
 
  --/* End of this Session ------------------------------------------ 2021-09-22 -------
- 
- 
- 
- 
+
+
+
+
  -- 2021-09-29
 
 -- SESSION : 3
@@ -267,15 +267,15 @@ SELECT [SalesOrderID]
       ,[UnitPrice]
       ,[UnitPriceDiscount]
       ,[LineTotal]
-   
+
   FROM [AdventureWorks2016_DEV].[Sales].[SalesOrderDetail] AS T1, [AdventureWorks2016_DEV].[Production].[Product] AS T2
-  WHERE T1.ProductID = T2.ProductID 
+  WHERE T1.ProductID = T2.ProductID
 
 
 /*
    JOINS - for multiple tables
 
-   1. LEFT JOIN / LEFT OUTER JOIN 
+   1. LEFT JOIN / LEFT OUTER JOIN
    2. RIGHT JOIN / RIGHT OUTER JOIN
 */
 
@@ -315,7 +315,7 @@ SELECT [SalesOrderID]
 
 
 
--- Arranging Column Information 
+-- Arranging Column Information
 SELECT [SalesOrderID]
       ,[SalesOrderDetailID]
       ,[CarrierTrackingNumber]
@@ -368,7 +368,7 @@ SELECT [SalesOrderID]
   FROM [AdventureWorks2016_DEV].[Sales].[SalesOrderDetail] T
 
 
-  -- SubQuery in WHERE Clause 
+  -- SubQuery in WHERE Clause
   SELECT [SalesOrderID]
       ,[SalesOrderDetailID]
       ,[CarrierTrackingNumber]
@@ -432,12 +432,12 @@ SELECT [SalesOrderID]
   WHERE a.productID NOT IN (980,365,771,404)
 
   --//-----  End of the Session --------------------------------------------
-  
-  
-  
-  
+
+
+
+
  -- 2021-10-11
- -- SESSION  :  4  - SUBQUERIES 
+ -- SESSION  :  4  - SUBQUERIES
 
 
 -- SubQueries used in two places
@@ -508,11 +508,72 @@ Write SQL Query for the following to display output related to each task. Fetch 
 
 7. show total quantity, total CIFSalesvalue in AED, total SalesAfterDiscount in AED and NetSales value in AED for KSA Country, UAE Country, OMAN Country in One table by using vwCountrySales by date wise.
 
-8. Show Material Code (SAP Code) from SAPCodeMap table in MasterData for every Sales transaction made by the countries Kuwait, Algeria, Lebanon for the month of October from this year. 
+8. Show Material Code (SAP Code) from SAPCodeMap table in MasterData for every Sales transaction made by the countries Kuwait, Algeria, Lebanon for the month of October from this year.
    Use vwCountrySales view by country wise and date wise. Use Joins for the output.
 
 9. Show Item Details from tblCntryProdCodeMaps table for the countries other than UAE, OMAN, KSA, Algeria.
 
-10. Show the total Netsales Value, total SalesAfterDiscount, total CIFSalesvalue in Currency type AED for the closing month September for this year except Lebanon 
+10. Show the total Netsales Value, total SalesAfterDiscount, total CIFSalesvalue in Currency type AED for the closing month September for this year except Lebanon
 
---//---------------- END of Task ---------------------------  
+--//---------------- END of Task ---------------------------
+
+
+
+
+--//--- 2021-10-17 ----------------------------
+
+-- SESSION : 5
+
+-- Syntax
+
+SELECT * FROM ( [SELECT Statment SQLQuery] ) AS [AliasName]
+
+
+-- Excerise
+SELECT ItemCode, COUNT(*) cnt FROM (
+	SELECT [ItemCode]
+		  ,[OldCode]
+		  ,[Description]
+		  ,[Brand]
+		  ,[CostUSD]
+		  ,[CostAED]
+	  FROM [BahrainSales_DEV].[dbo].[BHItemMasterFOB]
+  ) AS SQL
+  GROUP BY SQL.ItemCode
+  ORDER BY COUNT(*) DESC
+
+
+
+-- HAVING Clause (For filter Condition in Group by Clause should use HAVING )
+
+SELECT Country, Doc_Dt, ItemCode, COUNT(*) cnt FROM [MasterData].dbo.tblCountrySales
+GROUP BY Doc_Dt, ItemCode, Country
+HAVING Country = 'AE'
+ORDER BY COUNT(*) Desc
+
+
+-- For more than one condition  ( Use logical operator AND  / OR / NOT )
+
+-- Findling number of transactions happned on the particulate day for the particulare Country
+
+SELECT Country, Doc_Dt, ItemCode, COUNT(*) cnt FROM [MasterData].dbo.tblCountrySales
+GROUP BY Doc_Dt, ItemCode, Country
+HAVING Doc_Dt = '2021-10-14' AND Country = 'AE'
+ORDER BY COUNT(*) DESC
+
+
+-- Finding number of transactions happend on the particulare day for the particulare country for the specific Item
+SELECT Country, Doc_Dt, ItemCode, COUNT(*) cnt FROM [MasterData].dbo.tblCountrySales
+GROUP BY Doc_Dt, ItemCode, Country
+HAVING Doc_Dt = '2021-10-14' AND Country = 'AE' AND ItemCode = '115010190'
+ORDER BY COUNT(*) DESC
+
+
+-- Finding nuber of items sold on the particulare day for the country
+SELECT Country, COUNT(DISTINCT ItemCode) noOfItems FROM (
+SELECT * FROM [MasterData].dbo.tblCountrySales
+WHERE country='AE' AND Doc_Dt = '2021-10-14'
+) t
+GROUP BY Country
+
+--//--------------------- END of SESSION : 5 --------------------- : 17/10/2021 : ------------
