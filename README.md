@@ -27,7 +27,8 @@ Dr. Murugavel.KN
 - Post-lesson quiz
 
 
-| Lesson Number | Topic | Learning Objectives | Linked Lesson | Author |
+| Lesson Number | Topic | Learning Objectives | Linked Lesson |
 | :-----------: | :----------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | DDL - Data Definition Language | Learn the concepts to create, alter, drop the table by defining the data models, altering the models using the data dictionary. | [lesson](1-Introduction/01-defining-data-science/README.md) | [Dr. Murugavel.KN] |
-| 02 | Data Science Ethics | Data Ethics Concepts, Challenges & Frameworks. | [lesson](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
+| 01 | DDL - Data Definition Language | Learn the concepts to create, alter, drop the table by defining the data models, altering the models using the data dictionary. | [lesson](1-Introduction/01-defining-data-science/README.md) |
+| 02 | DML - Data Manipulation Language | Learn the concept to manipulate the data into the table which created using DDL. | [lesson](1-Introduction/02-ethics/README.md) |
+| 03 | DQL - Data Query Language | Learn the to query the data which is available in table. | [lesson](1-Introduction/02-ethics/README.md) |
