@@ -30,10 +30,10 @@ Dr. Murugavel.KN
 
 | Lesson Number | Topic | Learning Objectives | Linked Lesson |
 | :-----: | :------- |  :-------------------- | :---- |
-| 01 | DDL - Data Definition Language | Learn the concepts to create, alter, drop the table by defining the data models, altering the models using the data dictionary. | [lesson](1-DDL-Language/README.md) |
+| 01 | DDL - Data Definition Language | Learn the concepts to create, alter, drop the table by defining the data models, altering the models using the data dictionary. | [Lesson](1-DDL-Language/README.md) |
 | 02 | DML - Data Manipulation Language | Learn the concepts to Insert, Update and Delete from the table content. | [lesson](2-DML-Language/README.md) |
-| 03 | DQL - Data Query Language | Learn the concepts to write query called 'SELECT Statements' according to required information from the table data. | [lesson](3-DQL-Language/README.md) |
-|    | 03.1 | Simple Queries. | [lesson](3-DQL-Language/03-1-Simple-Query/README.md) |
-|    | 03.2 | ORDER BY Clause. | [lesson]3-DQL-Language/(03-2-Order-By/README.md) |
-|    | 03.3 | GROUP BY Clause. | [lesson](3-DQL-Language/03-3-GROUP-BY/README.md) |
-|    | 03.4 | HAVING Clause. | [lesson](3-DQL-Language/03-4-Having-Clause/README.md) |
+| 03 | DQL - Data Query Language | Learn the concepts to write query called 'SELECT Statements' according to required information from the table data. | [Lesson](3-DQL-Language/README.md) |
+|    | 03.1 | Simple Queries. | [Lesson](3-DQL-Language/03-1-Simple-Query/README.md) |
+|    | 03.2 | ORDER BY Clause. | [Lesson](3-DQL-Language/(03-2-Order-By/README.md) |
+|    | 03.3 | GROUP BY Clause. | [Lesson](3-DQL-Language/03-3-GROUP-BY/README.md) |
+|    | 03.4 | HAVING Clause. | [Lesson](3-DQL-Language/03-4-Having-Clause/README.md) |
