@@ -1,6 +1,6 @@
 
-####-- 2021-09-19 - Training Session
-### DDL - Data Defenition Language ------------------------------
+#### 2021-09-19 - Training Session
+### DDL - Data Defenition Language
 
 ![Blue text](**CREATE TABLE**) [Employee (
    Empno NVARCHAR(10),
