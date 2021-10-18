@@ -3,7 +3,7 @@
 
 ## Meet the Team
 
-[![Dr. Murugavel.KN]]
+Dr. Murugavel.KN
 
 
 ## Pedagogy
