@@ -1,5 +1,5 @@
 
-- ![#f03c15](#### 2021-09-19 - Training Session) '#f03c15'
+![#f03c15](2021-09-19 - Training Session) '#f03c15'
 ### DDL - Data Defenition Language
 
 **CREATE TABLE** Employee (
@@ -12,17 +12,17 @@
 )
 
 
- **ALTER TABLE** dbo.Employee
+- **ALTER TABLE** dbo.Employee
  **ALTER COLUMN** age FLOAT
 
- **ALTER TABLE** dbo.Employee
+- **ALTER TABLE** dbo.Employee
  **ALTER COLUMN** Salary FLOAT
 
- **ALTER TABLE** dbo.Employee
+- **ALTER TABLE** dbo.Employee
  **ADD ** Designation NVARCHAR(55)
 
- **ALTER TABLE** dbo.Employee
+- **ALTER TABLE** dbo.Employee
  **DROP COLUMN** Designation
 
 
- **DROP TABLE** dummy
+- **DROP TABLE** dummy
