@@ -33,4 +33,4 @@ Dr. Murugavel.KN
 | 01 | DDL - Data Definition Language | Learn the concepts to create, alter, drop the table by defining the data models, altering the models using the data dictionary. | [lesson](1-DDL-Language/README.md) |
 | 02 | DML - Data Manipulation Language | Learn the concepts to Insert, Update and Delete from the table content. | [lesson](2-DML-Language/README.md) |
 | 03 | DQL - Data Query Language | Learn the concepts to write query called 'SELECT Statements' according to required information from the table data. | [lesson](3-DQL-Language/README.md) |
-|    | 1. | Sub Queries. | [lesson](3-DQL-Language/README.md) |
+|    | 1.              2. | Sub Queries. | [lesson](3-DQL-Language/README.md) |
