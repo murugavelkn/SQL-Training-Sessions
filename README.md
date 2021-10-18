@@ -25,3 +25,9 @@ Dr. Murugavel.KN
 - Triggers
 - Assignment
 - Post-lesson quiz
+
+
+| Lesson Number | Topic | Learning Objectives | Linked Lesson | Author |
+| :-----------: | :----------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
+| 01 | DDL - Data Definition Language | Learn the concepts to create, alter, drop the table by defining the data models, altering the models using the data dictionary. | [lesson](1-Introduction/01-defining-data-science/README.md) | [Dr. Murugavel.KN] |
+| 02 | Data Science Ethics | Data Ethics Concepts, Challenges & Frameworks. | [lesson](1-Introduction/02-ethics/README.md) | [Nitya](https://twitter.com/nitya) |
