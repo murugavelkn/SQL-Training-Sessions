@@ -1,15 +1,15 @@
 
-#### 2021-09-19 - Training Session
+![#f03c15](#### 2021-09-19 - Training Session) '#f03c15'
 ### DDL - Data Defenition Language
 
-[![Blue text](**CREATE TABLE**)] [Employee (
+**CREATE TABLE** Employee (
    Empno NVARCHAR(10),
    EmpName NVARCHAR(155),
    DOB DATE,
    Salary NUMERIC(20,2),
    MGR NVARCHAR(10),
    age NUMERIC(3)
-)]
+)
 
 
  **ALTER TABLE** dbo.Employee
