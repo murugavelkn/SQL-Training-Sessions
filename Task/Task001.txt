@@ -1,0 +1,26 @@
+
+WorkBook Tasks.
+
+Write SQL Query for the following to display output related to each task. Fetch the Query command and past it under each task as answer.
+
+
+1. Show Customer Name and Customer Area detail only from Customer Master in Jordan DB for all the customers.
+
+2. Show the Itemcode, Description, oldcode, and Jdescription for the Country UAE for the Items mebo from tblCntryProdCodeMaps in MasterData
+
+3. Show the brand name on which country for the oldcode 121101.1. Use tblCntryProdCodeMaps table from MasterData DB.
+
+4. Show the Countries belong to the oldcodes 121215.3, 121118.4, 122133.1, 123306.1, 121618.2, 123107.3 by country. Use tblCntryProdCodeMaps table from MasterData DB.
+
+5. Show the Countries belong to the oldcodes 121215.3, 121118.4, 122133.1, 123306.1, 121618.2, 123107.3 by oldcode. Use tblCntryProdCodeMaps table from MasterData DB.
+
+6. Show the Sales for the Country OMAN for August month of this year by using vwCountrySales by date wise.
+
+7. show total quantity, total CIFSalesvalue in AED, total SalesAfterDiscount in AED and NetSales value in AED for KSA Country, UAE Country, OMAN Country in One table by using vwCountrySales by date wise.
+
+8. Show Material Code (SAP Code) from SAPCodeMap table in MasterData for every Sales transaction made by the countries Kuwait, Algeria, Lebanon for the month of October from this year.
+   Use vwCountrySales view by country wise and date wise. Use Joins for the output.
+
+9. Show Item Details from tblCntryProdCodeMaps table for the countries other than UAE, OMAN, KSA, Algeria.
+
+10. Show the total Netsales Value, total SalesAfterDiscount, total CIFSalesvalue in Currency type AED for the closing month September for this year except Lebanon
