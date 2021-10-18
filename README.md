@@ -37,4 +37,4 @@ Dr. Murugavel.KN
 |    | 03.2 | ORDER BY Clause. | - [Lesson](3-DQL-Language/03-2-Order-By/README.md) <br /> - [SQL](3-DQL-Language/03-2-Order-By/Order-By.sql) |
 |    | 03.3 | GROUP BY Clause. | - [Lesson](3-DQL-Language/03-3-GROUP-BY/README.md) <br /> - [SQL](3-DQL-Language/03-3-Group-By/Group-By.sql) |
 |    | 03.4 | HAVING Clause. | - [Lesson](3-DQL-Language/03-4-Having-Clause/README.md) <br /> - [SQL](3-DQL-Language/03-4-Having-Clause/Having-Clause.sql) |
-| I. | Task | Working Exercise Task-001. | [Task-001](Task/Task001.txt) \n [Solution](Task/Solution/Task001-Solution.sql) |
+| I. | Task | Working Exercise Task-001. | [Task-001](Task/Task001.txt) <br /> [Solution](Task/Solutions/Task001-Solution.sql) |
