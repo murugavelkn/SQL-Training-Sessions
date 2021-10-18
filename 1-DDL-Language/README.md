@@ -19,7 +19,7 @@
  **ALTER COLUMN** Salary FLOAT
 
 - **ALTER TABLE** dbo.Employee
- **ADD ** Designation NVARCHAR(55)
+ **ADD** Designation NVARCHAR(55)
 
 - **ALTER TABLE** dbo.Employee
  **DROP COLUMN** Designation
