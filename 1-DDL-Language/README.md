@@ -1,5 +1,5 @@
 
-![#f03c15](2021-09-19 - Training Session) '#f03c15'
+2021-09-19 - Training Session
 ### DDL - Data Defenition Language
 
 **CREATE TABLE** Employee (
