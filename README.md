@@ -36,4 +36,4 @@ Dr. Murugavel.KN
 |    | 03.1 | Simple Queries. | - [Lesson](3-DQL-Language/03-1-Simple-Query/README.md)<br /> - [SQL](3-DQL-Language/03-1-Simple-Query/simple-query.sql) |
 |    | 03.2 | ORDER BY Clause. | - [Lesson](3-DQL-Language/03-2-Order-By/README.md) <br /> - [SQL](3-DQL-Language/03-2-Order-By/Order-By.sql) |
 |    | 03.3 | GROUP BY Clause. | - [Lesson](3-DQL-Language/03-3-GROUP-BY/README.md) <br /> - [SQL](3-DQL-Language/03-3-Group-By/Group-By.sql) |
-|    | 03.4 | HAVING Clause. | - [Lesson](3-DQL-Language/03-4-Having-Clause/README.md) <br /> - [SQL](3-DQL-Language/03-4-Having-By/Group-By.sql) |
+|    | 03.4 | HAVING Clause. | - [Lesson](3-DQL-Language/03-4-Having-Clause/README.md) <br /> - [SQL](3-DQL-Language/03-4-Having-Clause/Group-By.sql) |
