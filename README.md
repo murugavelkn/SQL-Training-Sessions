@@ -29,5 +29,5 @@ Dr. Murugavel.KN
 
 | Lesson Number | Topic | Learning Objectives | Linked Lesson |
 | :-----------: | :----------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :----: |
-| 01 | DDL - Data Definition Language | Learn the concepts to create, alter, drop the table by defining the data models, altering the models using the data dictionary. | [lesson](1-Introduction/01-defining-data-science/README.md) |
-| 02 | DML - Data Manipulation Language | Learn the concept to manipulate the data into the table which created using DDL. | [lesson](1-Introduction/02-ethics/README.md) |
+| 01 | DDL - Data Definition Language | Learn the concepts to create, alter, drop the table by defining the data models, altering the models using the data dictionary. | [lesson](1-DDL-Language/README.md) |
+| 02 | DML - Data Manipulation Language | Learn the concept to manipulate the data into the table which created using DDL. | [lesson](2-DML-Language/README.md) |
