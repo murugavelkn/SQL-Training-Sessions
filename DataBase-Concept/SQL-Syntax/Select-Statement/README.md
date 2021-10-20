@@ -86,6 +86,4 @@ The **SQL DISTINCT** command is used with SELECT key word to retrieve only disti
 
 In a table, there may be a chance to exist a duplicate value and sometimes we want to retrieve only unique values. In such scenarios, SQL SELECT DISTINCT statement is used.
 
-```sh
- ![](https://static.javatpoint.com/images/note.png) Note: SQL SELECT UNIQUE and SQL SELECT DISTINCT statements are same.
-```
+> ![](https://static.javatpoint.com/images/note.png) Note: SQL SELECT UNIQUE and SQL SELECT DISTINCT statements are same.
