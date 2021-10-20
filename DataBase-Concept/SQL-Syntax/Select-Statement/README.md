@@ -57,7 +57,7 @@ Now, you will get following data:
 
  Akbar
 
- Anthony 
+ Anthony
 ```
 We can also retrieve data from more than one column. For example, to select first name and last name of all the students, you need to write
 
@@ -68,11 +68,13 @@ SELECT first\_name, last\_name FROM student_details;
 Now, you will get following data:
 
 
-| --- | --- |
-| Amar | Sharma |
-| Akbar | Khan |
-| Anthony | Milton |
+```sh
+ Amar        Sharma
 
+ Akbar       Khan
+
+ Anthony     Milton 
+```
 We can also use clauses like WHERE, GROUP BY, HAVING, ORDER BY with SELECT statement.
 
 Here a point is notable that only SELECT and FROM statements are necessary in SQL SELECT statements. Other clauses like WHERE, GROUP BY, ORDER BY, HAVING may be optional.
