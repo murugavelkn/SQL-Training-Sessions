@@ -257,19 +257,9 @@ value\_2, ..…, value\_N* **)**,*….;*
 
 **Example of inserting multiple records in a single query:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  INSERT INTO Employee\_details  
-2.  ( Emp\_ID, First\_name, Last\_name, Salary, City )  
-3.  VALUES (101, Amit, Gupta, 50000, Mumbai), (101,  John, Aggarwal, 45000, Calcutta), (101, Sidhu, Arora, 55000, Mumbai);  
-
-INSERT INTO Employee\_details ( Emp\_ID, First\_name, Last\_name,
-Salary, City ) VALUES (101, Amit, Gupta, 50000, Mumbai), (101, John,
-Aggarwal, 45000, Calcutta), (101, Sidhu, Arora, 55000, Mumbai);
+>**INSERT INTO** *Employee\_details* <br /> **(** *Emp\_ID, First\_name, Last\_name,
+Salary, City* **) <br /> VALUES (** *101, Amit, Gupta, 50000, Mumbai* **), (** *101, John,
+Aggarwal, 45000, Calcutta* **), (** *101, Sidhu, Arora, 55000, Mumbai* **);**
 
 This example inserts the records of three employees in the
 **Employee\_details** table in the single query statement.
@@ -281,64 +271,32 @@ SQL database.
 
 **Syntax of TRUNCATE TABLE Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  TRUNCATE TABLE table\_name;  
-
-TRUNCATE TABLE table\_name;
+>**TRUNCATE TABLE** *table\_name;*
 
 **Example of TRUNCATE TABLE Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  TRUNCATE TABLE Employee\_details;  
-
-TRUNCATE TABLE Employee\_details;
+>**TRUNCATE TABLE** *Employee\_details;*
 
 This example deletes the record of all employees from the
 Employee\_details table of the database.
 
-### 11. DESCRIBE Statement {.h3}
+### 11. DESCRIBE Statement
 
 This SQL statement tells something about the specified table or view in
 the query.
 
 **Syntax of DESCRIBE Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  DESCRIBE table\_name | view\_name;  
-
-DESCRIBE table\_name | view\_name;
+>**DESCRIBE** *table\_name | view\_name;*
 
 **Example of DESCRIBE Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  DESCRIBE Employee\_details;  
-
-DESCRIBE Employee\_details;
+>**DESCRIBE** *Employee\_details;*
 
 This example explains the structure and other details about the
 **Employee\_details** table.
 
-### 12. DISTINCT Clause {.h3}
+### 12. DISTINCT Clause
 
 This SQL statement shows the distinct values from the specified columns
 of the database table. This statement is used with the **SELECT**
@@ -346,131 +304,57 @@ keyword.
 
 **Syntax of DISTINCT Clause:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  SELECT DISTINCT column\_name1, column\_name2, ...  
-2.  FROM table\_name;  
-
-SELECT DISTINCT column\_name1, column\_name2, ... FROM table\_name;
+>**SELECT DISTINCT** *column\_name1, column\_name2, ...* <br /> **FROM** *table\_name;*
 
 **Example of DISTINCT Clause:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  SELECT DISTINCT City, Salary  
-2.  FROM Employee\_details;  
-
-SELECT DISTINCT City, Salary FROM Employee\_details;
+>**SELECT DISTINCT** *City, Salary* <br /> **FROM** *Employee\_details;*
 
 This example shows the distinct values of the **City** and **Salary**
 column from the **Employee\_details** table.
 
-### 13. COMMIT Statement {.h3}
+### 13. COMMIT Statement
 
 This SQL statement saves the changes permanently, which are done in the
 transaction of the SQL database.
 
 **Syntax of COMMIT Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  COMMIT  
-
-COMMIT
+>**COMMIT**
 
 **Example of COMMIT Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  DELETE FROM Employee\_details  
-2.  WHERE salary = 30000;  
-3.  COMMIT;  
-
-DELETE FROM Employee\_details WHERE salary = 30000; COMMIT;
+>**DELETE FROM** *Employee\_details* <br/> **WHERE** *salary = 30000;* <br/> **COMMIT;**
 
 This example deletes the records of those employees whose **Salary** is
 **30000** and then saves the changes permanently in the database.
 
-### 14. ROLLBACK Statement {.h3}
+### 14. ROLLBACK Statement
 
 This SQL statement undo the transactions and operations which are not
 yet saved to the SQL database.
 
-**Syntax of ROLLBACK Statement:**
-
-[](#)
-
-[](#)
-
-[](#)
-
-1.  ROLLBACK  
-
-ROLLBACK
+>**ROLLBACK**
 
 **Example of ROLLBACK Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  DELETE FROM Employee\_details  
-2.  WHERE City = Mumbai;  
-3.  ROLLBACK;  
-
-DELETE FROM Employee\_details WHERE City = Mumbai; ROLLBACK;
+>**DELETE FROM** *Employee\_details* <br/> **WHERE** *City = Mumbai;* <br/> **ROLLBACK;**
 
 This example deletes the records of those employees whose **City** is
 **Mumbai** and then undo the changes in the database.
 
-### 15. CREATE INDEX Statement {.h3}
+### 15. CREATE INDEX Statement
 
 This SQL statement creates the new index in the SQL database table.
 
 **Syntax of CREATE INDEX Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  CREATE INDEX index\_name  
-2.  ON table\_name ( column\_name1, column\_name2, …, column\_nameN );  
-
-CREATE INDEX index\_name ON table\_name ( column\_name1, column\_name2,
-…, column\_nameN );
+>**CREATE INDEX** *index\_name* <br/> **ON** *table\_name* **(** *column\_name1, column\_name2,
+…, column\_nameN* **);**
 
 **Example of CREATE INDEX Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  CREATE INDEX idx\_First\_Name  
-2.  ON employee\_details (First\_Name);  
-
-CREATE INDEX idx\_First\_Name ON employee\_details (First\_Name);
+>**CREATE INDEX** *idx\_First\_Name* <br /> **ON** *employee\_details (First\_Name);*
 
 This example creates an index **idx\_First\_Name** on the
 **First\_Name** column of the **Employee\_details** table.
@@ -481,27 +365,11 @@ This SQL statement deletes the existing index of the SQL database table.
 
 **Syntax of DROP INDEX Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  DROP INDEX index\_name;   
-
-DROP INDEX index\_name;
+>**DROP INDEX** *index\_name;*
 
 **Example of DROP INDEX Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  DROP INDEX idx\_First\_Name;   
-
-DROP INDEX idx\_First\_Name;
+>**DROP INDEX** *idx\_First\_Name;*
 
 This example deletes the index **idx\_First\_Name** from the SQL
 database.
@@ -514,26 +382,10 @@ from the multiple existing databases.
 
 **Syntax of USE Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  USE database\_name;  
-
-USE database\_name;
+>**USE** *database\_name;*
 
 **Example of USE DATABASE Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  USE Company;   
-
-USE Company;
+>**USE** *Company;*
 
 This example uses the company database.
