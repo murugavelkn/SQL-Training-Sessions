@@ -74,8 +74,8 @@ the output to the database user.
 
 **Example of SELECT Statement:**
 
-SELECT Emp\_ID, First\_Name, Last\_Name, Salary, City <br />FROM
-Employee\_details <br /> WHERE Salary = 100000 <br /> ORDER BY Last\_Name
+> **SELECT** *Emp\_ID, First\_Name, Last\_Name, Salary, City* <br />**FROM
+Employee\_details <br /> WHERE** *Salary = 100000* <br /> **ORDER BY** *Last\_Name*
 
 This example shows the **Emp**\_**ID**, First\_Name, Last\_Name, Salary, and
 City** of those employees from the **Employee\_details** table whose
