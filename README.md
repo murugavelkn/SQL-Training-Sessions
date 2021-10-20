@@ -17,7 +17,7 @@ Dr. Murugavel.KN
 ### DBMS Tutorial
 >DBMS Tutorial provides basic and advanced concepts of Database. Our DBMS Tutorial is designed for beginners and professionals both.
 
-Database management system is software that is used to manage the database.
+Database management system is software that is used to manage the [database](Database-Concept/What-is-Database/README.md).
 
 - Our DBMS Tutorial includes all topics of DBMS such as introduction, ER model, keys, relational model, join operation, SQL, functional dependency, transaction, concurrency control, etc.
 
@@ -63,8 +63,8 @@ Using the database, you can easily retrieve, insert, and delete the information.
 - **Higher impact of failure:** Failure is highly impacted the database because in most of the organization, all the data stored in a single database and if the database is damaged due to electric failure or database corruption then the data may be lost forever.
 
 |  DBMS Index  | |
-| :----------: | :---- |
-| DBMS Tutorial | Transaction Processing |
+| :---------- | :---- |
+| **DBMS Tutorial** | **Transaction Processing** |
 |  DBMS Tutorial | Transaction |
 | 1. DBMS vs File System | Transaction Property |
 | 2. DBMS Architecture | States of Transaction |
