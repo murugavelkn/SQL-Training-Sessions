@@ -62,10 +62,10 @@ Using the database, you can easily retrieve, insert, and delete the information.
 - **Complexity:** Database system creates additional complexity and requirements.
 - **Higher impact of failure:** Failure is highly impacted the database because in most of the organization, all the data stored in a single database and if the database is damaged due to electric failure or database corruption then the data may be lost forever.
 
-| :------------ | :--------------------- |
-| DBMS Tutorial | Transaction Processing |
 
-| **DBMS Tutorial** | Transaction |
+| DBMS Tutorial | Transaction Processing |
+|:------------- | :----------------------|
+| DBMS Tutorial | Transaction |
 | DBMS vs File System | Transaction Property |
 | DBMS Architecture | States of Transaction |
 | Three schema Architecture | DBMS Schedule |
