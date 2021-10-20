@@ -3,7 +3,7 @@
 
 ### Meet the Team
 
-Dr. Murugavel.KN
+![#1589F0](Dr. Murugavel.KN) `#1589F0`
 
 
 ### Pedagogy
@@ -62,26 +62,7 @@ Using the database, you can easily retrieve, insert, and delete the information.
 - **Complexity:** Database system creates additional complexity and requirements.
 - **Higher impact of failure:** Failure is highly impacted the database because in most of the organization, all the data stored in a single database and if the database is damaged due to electric failure or database corruption then the data may be lost forever.
 
-|  DBMS Index  | |
-| :---------- | :---- |
-| **DBMS Tutorial** | **Transaction Processing** |
-|  DBMS Tutorial | Transaction |
-| 1. DBMS vs File System | Transaction Property |
-| 2. DBMS Architecture | States of Transaction |
-| 3. Three schema Architecture | DBMS Schedule |
-| 4. Data model schema | Testing of Serializability |
-| 5. Data Independence | Conflict schedule |
-| 6. DBMS Language | View Serializability |
-| **Data modeling** | Recoverability of Schedule |
-| | Failure Classification |
-| ER model concept | Log-Based Recovery |
-| Mapping constraints | DBMS Checkpoint |
-| DBMS Keys | Deadlock in DBMS |
-| DBMS Generalization | |
-| DBMS Specialization | |
-| DBMS Aggregation | |
-| Convert ER into table | |
-| Relationship of Higher Degree | |
+
 
 
 
