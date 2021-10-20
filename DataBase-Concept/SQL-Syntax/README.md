@@ -122,22 +122,22 @@ This SQL statement creates the new table in the SQL database.
 **Syntax of CREATE TABLE Statement:**
 
 
-**CREATE TABLE** *table\_name* **(**
-    *column\_name1 data\_type [column1 constraint(s)],
-    column\_name2 data\_type [column2 constraint(s)],
-    .....,
-    .....,
-    column\_nameN data\_type [columnN constraint(s)],*
+**CREATE TABLE** *table\_name* **(** <br />
+    *column\_name1 data\_type [column1 constraint(s)],<br />
+    column\_name2 data\_type [column2 constraint(s)],<br />
+    .....,<br />
+    .....,<br />
+    column\_nameN data\_type [columnN constraint(s)],*<br />
     **PRIMARY KEY(** *one or more col* **) );**
 
 **Example of CREATE TABLE Statement:**
 
-**CREATE TABLE** *Employee\_details* **(**
-    *Emp\_Id NUMBER(4) NOT NULL,
-    First\_name VARCHAR(30),
-    Last\_name VARCHAR(30),
-    Salary Money,
-    City VARCHAR(30),*
+**CREATE TABLE** *Employee\_details* **(**<br />
+    *Emp\_Id NUMBER(4) NOT NULL,<br />
+    First\_name VARCHAR(30),<br />
+    Last\_name VARCHAR(30),<br />
+    Salary Money,<br />
+    City VARCHAR(30),*<br />
 **PRIMARY KEY (** *Emp\_Id* **) );**
 
 This example creates the table **Employee\_details** with five columns
