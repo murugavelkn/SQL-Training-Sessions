@@ -122,22 +122,22 @@ This SQL statement creates the new table in the SQL database.
 **Syntax of CREATE TABLE Statement:**
 
 
-**CREATE TABLE** *table\_name* **(** <br />
-    &emsp; &emsp; &emsp; *column\_name1 data\_type [column1 constraint(s)],<br />
-    &emsp; &emsp; &emsp; column\_name2 data\_type [column2 constraint(s)],<br />
-    &emsp; &emsp; &emsp; .....,<br />
-    &emsp; &emsp; &emsp; .....,<br />
-    &emsp; &emsp; &emsp; column\_nameN data\_type [columnN constraint(s)],*<br />
+>**CREATE TABLE** *table\_name* **(** <br />
+    &emsp; &emsp;  *column\_name1 data\_type [column1 constraint(s)],<br />
+    &emsp; &emsp;  column\_name2 data\_type [column2 constraint(s)],<br />
+    &emsp; &emsp;  .....,<br />
+    &emsp; &emsp; .....,<br />
+    &emsp; &emsp;  column\_nameN data\_type [columnN constraint(s)],*<br />
     **PRIMARY KEY(** *one or more col* **) );**
 
 **Example of CREATE TABLE Statement:**
 
-**CREATE TABLE** *Employee\_details* **(**<br />
-    *Emp\_Id NUMBER(4) NOT NULL,<br />
-    First\_name VARCHAR(30),<br />
-    Last\_name VARCHAR(30),<br />
-    Salary Money,<br />
-    City VARCHAR(30),*<br />
+>**CREATE TABLE** *Employee\_details* **(**<br />
+    &emsp; &emsp;  *Emp\_Id NUMBER(4) NOT NULL,<br />
+    &emsp; &emsp;  First\_name VARCHAR(30),<br />
+    &emsp; &emsp;  Last\_name VARCHAR(30),<br />
+    &emsp; &emsp;  Salary Money,<br />
+    &emsp; &emsp;  City VARCHAR(30),*<br />
 **PRIMARY KEY (** *Emp\_Id* **) );**
 
 This example creates the table **Employee\_details** with five columns
