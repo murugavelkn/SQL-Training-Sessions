@@ -123,7 +123,7 @@ This SQL statement creates the new table in the SQL database.
 
 
 **CREATE TABLE** *table\_name* **(** <br />
-    *column\_name1 data\_type [column1 constraint(s)],<br />
+    \t\t\t *column\_name1 data\_type [column1 constraint(s)],<br />
     column\_name2 data\_type [column2 constraint(s)],<br />
     .....,<br />
     .....,<br />
