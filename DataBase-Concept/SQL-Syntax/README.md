@@ -36,15 +36,15 @@ query or statement.
 Most Important SQL Commands and Statements
 ------------------------------------------
 
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 1.  Select Statement <br/>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 2.  Update Statement <br/>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 3.  Delete Statement <br/>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 4.  Create Table Statement <br/>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 5.  Alter Table Statement <br/>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 6.  Drop Table Statement <br/>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 7.  Create Database Statement <br/>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 8.  Drop Database Statement <br/>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 9.  Insert Into Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 1.  Select Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 2.  Update Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 3.  Delete Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 4.  Create Table Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 5.  Alter Table Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 6.  Drop Table Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 7.  Create Database Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 8.  Drop Database Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 9.  Insert Into Statement <br/>
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 10. Truncate Table Statement <br/>
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 11. Describe Statement <br/>
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 12. Distinct Clause <br/>
