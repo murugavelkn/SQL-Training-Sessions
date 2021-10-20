@@ -191,7 +191,7 @@ In this example, we have taken the following **Cars** table with three columns:
 
 * Suppose, you want to count the unique colors of a car from the above table. For this query, you have to write the below statement in SQL:
 
->**SELECT COUNT** *(***DISTINCT** *Car\_Color***) AS** *Unique\_Car_Color* <br/>**FROM** *Cars ;*
+>**SELECT COUNT** *(* **DISTINCT** *Car\_Color)* **AS** *Unique\_Car_Color* <br/>**FROM** *Cars ;*
 
 This query will show the following output on the screen:
 
@@ -215,7 +215,7 @@ In this example, we have taken an **Employee** table with four columns:
 
 * Suppose, you want to count the unique values of the **Emp_Salary**field from the Employee_details table. For this, you have to write the following statement in Structured Query Language:
 
->**SELECT COUNT** *(***DISTINCT** *Emp\_Salary***) AS** *Unique\_Salary* <br/> **FROM** *Employee ;*
+>**SELECT COUNT** *(* **DISTINCT** *Emp\_Salary)* **AS** *Unique\_Salary* <br/> **FROM** *Employee ;*
 
 This query will show the following output on the screen:
 
