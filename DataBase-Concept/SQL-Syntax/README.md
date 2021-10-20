@@ -36,23 +36,23 @@ query or statement.
 Most Important SQL Commands and Statements
 ------------------------------------------
 
-1.  Select Statement
-2.  Update Statement
-3.  Delete Statement
-4.  Create Table Statement
-5.  Alter Table Statement
-6.  Drop Table Statement
-7.  Create Database Statement
-8.  Drop Database Statement
-9.  Insert Into Statement
-10. Truncate Table Statement
-11. Describe Statement
-12. Distinct Clause
-13. Commit Statement
-14. Rollback Statement
-15. Create Index Statement
-16. Drop Index Statement
-17. Use Statement
+&emsp; &emsp; &emsp; &emsp; 1.  Select Statement
+&emsp; &emsp; &emsp; &emsp; 2.  Update Statement
+&emsp; &emsp; &emsp; &emsp; 3.  Delete Statement
+&emsp; &emsp; &emsp; &emsp; 4.  Create Table Statement
+&emsp; &emsp; &emsp; &emsp; 5.  Alter Table Statement
+&emsp; &emsp; &emsp; &emsp; 6.  Drop Table Statement
+&emsp; &emsp; &emsp; &emsp; 7.  Create Database Statement
+&emsp; &emsp; &emsp; &emsp; 8.  Drop Database Statement
+&emsp; &emsp; &emsp; &emsp; 9.  Insert Into Statement
+&emsp; &emsp; &emsp; &emsp; 10. Truncate Table Statement
+&emsp; &emsp; &emsp; &emsp; 11. Describe Statement
+&emsp; &emsp; &emsp; &emsp; 12. Distinct Clause
+&emsp; &emsp; &emsp; &emsp; 13. Commit Statement
+&emsp; &emsp; &emsp; &emsp; 14. Rollback Statement
+&emsp; &emsp; &emsp; &emsp; 15. Create Index Statement
+&emsp; &emsp; &emsp; &emsp; 16. Drop Index Statement
+&emsp; &emsp; &emsp; &emsp; 17. Use Statement
 
 **Let's discuss each statement in short one by one with syntax and one
 example:**
