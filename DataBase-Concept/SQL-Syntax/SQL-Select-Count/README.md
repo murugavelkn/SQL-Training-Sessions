@@ -11,10 +11,7 @@ This function is used with the SQL SELECT statement.
 
 Syntax of Select Count Function in SQL
 --------------------------------------
-
-1.  SELECTCOUNT(column_name) FROM table_name;  
-
-SELECT COUNT(column\_name) FROM table\_name;
+>**SELECT COUNT** *(column\_name)* <br/> **FROM** *table\_name;*
 
 In the syntax, we have to specify the column's name after the COUNT keyword and the name of the table on which the Count function is to be executed.
 
@@ -36,9 +33,7 @@ In this article, we have taken the following two SQL examples that will help you
 
 * Suppose, you want to count the total number of bike colors from **Bike** Table. For this operation, you have to write the following SQL statement:
 
-1.  SELECTCOUNT (Bike_Color) AS TotalBikeColor FROM Bikes ;  
-
-SELECT COUNT (Bike_Color) AS TotalBikeColor FROM Bikes ;
+>**SELECT COUNT** *(Bike_Color)* **AS** *TotalBikeColor* <br/> **FROM** *Bikes;*
 
 This query will show the following output on the screen:
 
@@ -50,9 +45,7 @@ The output of this query is six because the **Bike_Color** column does not conta
 
 * Suppose, you want to count the total values of **the Bike_Cost** column from the above **Bike** Table. For this operation, you have to write the following statement in SQL:
 
-1.  SELECTCOUNT (Bike_Cost) AS TotalBikeCost FROM Bikes ;  
-
-SELECT COUNT (Bike_Cost) AS TotalBikeCost FROM Bikes ;
+>**SELECT COUNT** *(Bike_Cost)* **AS** *TotalBikeCost* <br/> **FROM** *Bikes;*
 
 This query will show the following output on the screen:
 
@@ -74,9 +67,7 @@ The output of this query is four because two values of the Bike_Cost column are 
 
 * Suppose, you want to count the total values of **the Emp_City** column of the above **Employee_details** table. For this query, you have to write the following statement in Structured Query Language:
 
-1.  SELECTCOUNT (Emp_City) AS TotalCity FROM Employee_details ;  
-
-SELECT COUNT (Emp\_City) AS TotalCity FROM Employee\_details ;
+>**SELECT COUNT** *(Emp\_City)* **AS** *TotalCity* <br/> **FROM** *Employee\_details ;*
 
 This query will show the following output on the screen:
 
@@ -93,9 +84,7 @@ The count(*) function in SQL shows all the Null and Non-Null records present in 
 
 ### Syntax of Count (*) Function in SQL
 
-1.  SELECTCOUNT(*) FROM table_name;  
-
-SELECT COUNT(*) FROM table_name;
+>**SELECT COUNT(*) <br/> FROM** *table_name;*
 
 ### Example of Count (*) Function in SQL
 
@@ -112,9 +101,7 @@ In this example, we have the following **Bike** table with three columns:
 
 * Suppose, you want to count the total number of records from the **Bike** Table. For this condition, you have to write the following statement in Structured Query Language:
 
-1.  SELECTCOUNT (*)  FROM Bikes ;  
-
-SELECT COUNT (*) FROM Bikes ;
+>**SELECT COUNT (*)** <br/. **FROM** *Bikes ;*
 
 This query will show the following output on the screen:
 
@@ -129,9 +116,7 @@ We can also use the Count() function with the WHERE clause. The Count Function w
 
 ### Syntax of Count() Function With WHERE clause in SQL
 
-1.  SELECTCOUNT(column_name) FROM table_name WHERE \[condition\];  
-
-SELECT COUNT(column\_name) FROM table\_name WHERE \[condition\];
+>**SELECT COUNT**(column\_name) **FROM** *table\_name* **WHERE** *\[condition\];*
 
 ### Examples of Count Function With WHERE clause in SQL
 
@@ -150,9 +135,7 @@ The following two examples will help you to run the Count function with the WHER
 
 * Suppose, you want to count the total number of bikes whose color is black. For this, you have to type the following statement in SQL:
 
-1.  SELECTCOUNT (Bike_Name) AS TotalBikeBlackColor FROM Bikes WHERE Bike_Color = 'Black';  
-
-SELECT COUNT (Bike\_Name) AS TotalBikeBlackColor FROM Bikes WHERE Bike\_Color = 'Black';
+>**SELECT COUNT** *(Bike\_Name)* **AS** *TotalBikeBlackColor* <br/> **FROM** *Bikes* <br/>**WHERE** *Bike\_Color = 'Black';*
 
 This query will show the following output on the screen:
 
@@ -172,9 +155,7 @@ This query will show the following output on the screen:
 
 * Suppose, you want to count the total number of those employees who belong to Delhi city. For this, you have to write the following SQL statement:
 
-1.  SELECTCOUNT (Emp_Name) AS TotalEmpCity FROM Employee_details WHERE Emp_City = 'Delhi';  
-
-SELECT COUNT (Emp\_Name) AS TotalEmpCity FROM Employee\_details WHERE Emp_City = 'Delhi';
+>**SELECT COUNT** *(Emp\_Name)* **AS** *TotalEmpCity* <br/>**FROM** *Employee\_details* **WHERE** *Emp_City = 'Delhi';*
 
 This query will show the following output on the screen:
 
@@ -189,9 +170,7 @@ The DISTINCT keyword with the COUNT function shows only the numbers of unique ro
 
 ### Syntax of Count Function With DISTINCT keyword in SQL
 
-1.  SELECTCOUNT(DISTINCT column_name) FROM table_name WHERE \[condition\];  
-
-SELECT COUNT(DISTINCT column\_name) FROM table\_name WHERE \[condition\];
+>**SELECT COUNT** *(***DISTINCT** *column\_name***)** <br/>**FROM** *table\_name* <br/>**WHERE** *\[condition\];*
 
 ### Examples of Count Function With DISTINCT keyword in SQL
 
@@ -212,9 +191,7 @@ In this example, we have taken the following **Cars** table with three columns:
 
 * Suppose, you want to count the unique colors of a car from the above table. For this query, you have to write the below statement in SQL:
 
-1.  SELECTCOUNT (DISTINCT Car_Color) AS Unique\_Car\_Color FROM Cars ;  
-
-SELECT COUNT (DISTINCT Car\_Color) AS Unique\_Car_Color FROM Cars ;
+>**SELECT COUNT** *(***DISTINCT** *Car\_Color***) AS** *Unique\_Car_Color* <br/>**FROM** *Cars ;*
 
 This query will show the following output on the screen:
 
@@ -238,9 +215,7 @@ In this example, we have taken an **Employee** table with four columns:
 
 * Suppose, you want to count the unique values of the **Emp_Salary**field from the Employee_details table. For this, you have to write the following statement in Structured Query Language:
 
-1.  SELECTCOUNT (DISTINCT Emp_Salary) AS Unique_Salary FROM Employee ;  
-
-SELECT COUNT (DISTINCT Emp\_Salary) AS Unique\_Salary FROM Employee ;
+>**SELECT COUNT** *(***DISTINCT** *Emp\_Salary***) AS** *Unique\_Salary* <br/> **FROM** *Employee ;*
 
 This query will show the following output on the screen:
 
