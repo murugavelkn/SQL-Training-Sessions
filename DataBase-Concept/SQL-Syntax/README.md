@@ -12,7 +12,7 @@ Following are some most important points about the SQL syntax which are to remem
 -   You can perform most of the action in a database with SQL statements.
 -   SQL syntax depends on relational algebra and tuple relational calculus.
 
-SQL Statement 
+SQL Statement
 -------------
 
 [SQL](https://www.javatpoint.com/sql-tutorial)
@@ -23,15 +23,9 @@ The statements of SQL are very simple and easy to use and understand. They are l
 
 **Simple Example of SQL statement:**
 
-[](#)
 
-[](#)
 
-[](#)
-
-1.  SELECT "column\_name" FROM "table\_name";    
-
-SELECT "column\_name" FROM "table\_name";
+> SELECT "column\_name" FROM "table\_name";
 
 Each SQL statement begins with any of the SQL keywords and ends with the
 semicolon (;). The semicolon is used in the SQL for separating the
@@ -39,7 +33,7 @@ multiple Sql statements which are going to execute in the same call. In
 this SQL tutorial, we will use the semicolon (;) at the end of each SQL
 query or statement.
 
-Most Important SQL Commands and Statements {.h2}
+Most Important SQL Commands and Statements
 ------------------------------------------
 
 1.  [Select Statement](https://www.javatpoint.com/sql-select)
