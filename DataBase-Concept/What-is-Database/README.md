@@ -32,7 +32,7 @@ A cylindrical structure is used to display the image of a database.
 ## Evolution of Databases ##
 The database has completed more than 50 years of journey of its evolution from flat-file system to relational and objects relational systems. It has gone through several generations.
 
-## The Evolution ## 
+## The Evolution ##
 
 ##### File-Based #####
 1968 was the year when File-Based database were introduced. In file-based databases, data was maintained in a flat file. Though files have many advantages, there are several limitations.
@@ -148,7 +148,7 @@ GUI tools for NoSQL database are not easily available in the market.
 
 Backup is a great weak point for NoSQL databases. Some databases, like MongoDB, have no powerful approaches for data backup.
 
-##The Object-Oriented Databases##
+## The Object-Oriented Databases ##
 
 The object-oriented databases contain data in the form of object and classes. Objects are the real-world entity, and types are the collection of objects. An object-oriented database is a combination of relational model features with objects oriented principles. It is an alternative implementation to that of the relational model.
 
@@ -173,7 +173,7 @@ The object-oriented database model contains the following properties.
 - Concurrency
 - Query processing
 
-##Graph Databases##
+## Graph Databases ##
 
 A graph database is a NoSQL database. It is a graphical representation of data. It contains nodes and edges. A node represents an entity, and each edge represents a relationship between two edges. Every node in a graph database represents a unique identifier.
 
@@ -196,7 +196,7 @@ Database management System is software which is used to store and retrieve the d
 - DBMS contains the group of programs which acts according to the user instruction.
 - It provides security to the database.
 
-##Advantage of DBMS##
+## Advantage of DBMS ##
 
 **Controls redundancy**
 
@@ -214,7 +214,7 @@ It providesBackup and recovery subsystem. This recovery system creates automatic
 
 It provides a different type of user interfaces like GUI, application interfaces.
 
-##Disadvantage of DBMS##
+## Disadvantage of DBMS ##
 
 **Size**
 
@@ -228,7 +228,7 @@ DBMS requires a high-speed data processor and larger memory to run DBMS software
 
 DBMS creates additional complexity and requirements.
 
-##RDBMS (Relational Database Management System)##
+## RDBMS (Relational Database Management System) ##
 
 The word RDBMS is termed as 'Relational Database Management System.' It is represented as a table that contains rows and column.
 
