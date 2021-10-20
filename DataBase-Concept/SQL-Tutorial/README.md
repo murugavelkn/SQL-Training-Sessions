@@ -49,7 +49,8 @@ Structured Query Language contains the following four components in its process:
 
 A classic query engine allows data professionals and users to maintain non-SQL queries. The architecture of SQL is shown in the following diagram:
 
-SQL Tutorial
+![SQL Tutorial](images/sql-process.png)
+
 ## Some SQL Commands
 
 The SQL commands help in creating and managing the database. The most common SQL commands which are highly used are mentioned below:
@@ -91,7 +92,7 @@ This command helps in inserting the data or records into the database tables. We
 
 ## SQL vs No-SQL
 
-SQL Tutorial
+![SQL Tutorial](images/sqlvsnosql.png)
 
 The following table describes the differences between the SQL and NoSQL, which are necessary to understand:
 
