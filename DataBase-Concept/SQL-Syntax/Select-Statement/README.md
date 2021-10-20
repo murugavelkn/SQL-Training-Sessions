@@ -86,4 +86,31 @@ The **SQL DISTINCT** command is used with SELECT key word to retrieve only disti
 
 In a table, there may be a chance to exist a duplicate value and sometimes we want to retrieve only unique values. In such scenarios, SQL SELECT DISTINCT statement is used.
 
-> ![](https://static.javatpoint.com/images/note.png) Note: SQL SELECT UNIQUE and SQL SELECT DISTINCT statements are same.
+> ![](https://static.javatpoint.com/images/note.png) *Note: SQL SELECT UNIQUE and SQL SELECT DISTINCT statements are same.*
+
+Let's see the syntax of select distinct statement.
+
+>**SELECT DISTINCT** *column_name ,column_name* <br/>
+**FROM**  *table_name;*
+
+Let's try to understand it by the table given below:
+
+| Student_Name | Gender | Mobile_Number | HOME_TOWN |
+| --- | --- | --- | --- |
+| Rahul Ojha | Male | 7503896532 | Lucknow |
+| Disha Rai | Female | 9270568893 | Varanasi |
+| Sonoo Jaiswal | Male | 9990449935 | Lucknow |
+
+
+Here is a table of students from where we want to retrieve distinct information For example: distinct home-town.
+
+>**SELECT DISTINCT** *home_town*
+**FROM** *students*
+
+Now, it will return two rows.
+
+
+| HOME_TOWN |
+| --- |
+| Lucknow |
+| Varanasi |
