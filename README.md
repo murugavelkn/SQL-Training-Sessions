@@ -3,7 +3,7 @@
 
 ### Meet the Team
 
-![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=Dr. Murugavel.KN) `#1589F0`
+Dr. Murugavel.KN
 
 
 ### Pedagogy
@@ -68,7 +68,8 @@ Using the database, you can easily retrieve, insert, and delete the information.
 
 ### Lesson includes:
 
-- [SQL Query concepts.](DataBase-Concept/SQL-Tutorial/README.md)         
+- [SQL Query concepts](DataBase-Concept/SQL-Tutorial/README.md)   
+        [1. SQL syntax](DataBase-Concept/SQL-Syntax/README.md)
 - DDL - Data Definition Language
 - DML - Data Manipulation Language
 - DQL - Data Query Language
