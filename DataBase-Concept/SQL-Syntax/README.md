@@ -236,8 +236,8 @@ records in a single query statement.
 
 **Syntax of insert a single record:**
 
->**INSERT INTO** *table\_name* <br /> **(** *column\_name1, <br /> column\_name2, <br /> .…, <br />
-column\_nameN* <br /> **) <br /> VALUES <br />(** *value\_1, <br /> value\_2, <br /> ..…, <br /> value\_N <br />* **);**
+>**INSERT INTO** *table\_name* <br /> **(** &emsp; &emsp; *column\_name1, <br /> &emsp; &emsp; column\_name2, <br /> &emsp; &emsp; .…, <br />
+&emsp; &emsp; column\_nameN* <br /> **) <br /> VALUES <br />(** &emsp; &emsp; *value\_1, <br /> &emsp; &emsp; value\_2, <br /> &emsp; &emsp; ..…, <br /> &emsp; &emsp; value\_N <br />* **);**
 
 **Example of insert a single record:**
 
