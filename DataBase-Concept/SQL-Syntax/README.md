@@ -36,7 +36,7 @@ query or statement.
 Most Important SQL Commands and Statements
 ------------------------------------------
 
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 1.  Select Statement <br/>
+**&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 1.  Select Statement <br/>
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 2.  Update Statement <br/>
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 3.  Delete Statement <br/>
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; 4.  Create Table Statement <br/>
@@ -52,7 +52,7 @@ Most Important SQL Commands and Statements
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 14. Rollback Statement <br/>
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 15. Create Index Statement <br/>
 &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 16. Drop Index Statement <br/>
-&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 17. Use Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 17. Use Statement** <br/>
 
 **Let's discuss each statement in short one by one with syntax and one
 example:**
