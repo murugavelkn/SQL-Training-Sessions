@@ -236,35 +236,13 @@ records in a single query statement.
 
 **Syntax of insert a single record:**
 
->**INSERT INTO** *table\_name* <br /> **(** &emsp; &emsp; *column\_name1, <br /> &emsp; &emsp; column\_name2, <br /> &emsp; &emsp; .…, <br />
-&emsp; &emsp; column\_nameN* <br /> **) <br /> VALUES <br />(** &emsp; &emsp; *value\_1, <br /> &emsp; &emsp; value\_2, <br /> &emsp; &emsp; ..…, <br /> &emsp; &emsp; value\_N <br />* **);**
+>**INSERT INTO** *table\_name* <br /> **(**&emsp; &emsp;*column\_name1, <br /> &emsp; &emsp; column\_name2, <br /> &emsp; &emsp; .…, <br />
+&emsp; &emsp; column\_nameN* <br /> **) <br /> VALUES <br />(**&emsp; &emsp;*value\_1, <br /> &emsp; &emsp; value\_2, <br /> &emsp; &emsp; ..…, <br /> &emsp; &emsp; value\_N <br />* **);**
 
 **Example of insert a single record:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  INSERT INTO Employee\_details  
-2.  (   
-3.  Emp\_ID,   
-4.  First\_name,  
-5.  Last\_name,  
-6.  Salary,  
-7.  City  
-8.  )  
-9.  VALUES   
-10. (101,   
-11. Akhil,  
-12. Sharma,  
-13. 40000,  
-14. Bangalore  
-15. );  
-
->**INSERT INTO** *Employee\_details* <br / > **(** *Emp\_ID, <br / > First\_name, <br / > Last\_name, <br / >
-Salary, <br / > City* <br / > **) <br / > VALUES <br / > (** <br / > *101, <br / > Akhil, <br / > Sharma, <br / > 40000, <br / > Bangalore* <br / > **);**
+>**INSERT INTO** *Employee\_details* <br / > **(** &emsp; &emsp; *Emp\_ID, <br / > &emsp; &emsp; First\_name, <br / > &emsp; &emsp; Last\_name, <br / >
+&emsp; &emsp; Salary, <br / > &emsp; &emsp; City* <br / > **) <br / > VALUES <br / > (** <br / > &emsp; &emsp; *101, <br / > &emsp; &emsp; Akhil, <br / > &emsp; &emsp; Sharma, <br / > &emsp; &emsp; 40000, <br / > vBangalore* <br / > **);**
 
 This example inserts **101** in the first column, **Akhil** in the
 second column, **Sharma** in the third column, **40000** in the fourth
