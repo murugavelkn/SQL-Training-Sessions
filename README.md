@@ -65,13 +65,13 @@ Using the database, you can easily retrieve, insert, and delete the information.
 
 | DBMS Tutorial | Transaction Processing |
 |:------------- | :----------------------|
-| DBMS Tutorial | Transaction |
-| DBMS vs File System | Transaction Property |
-| DBMS Architecture | States of Transaction |
-| Three schema Architecture | DBMS Schedule |
-| Data model schema | Testing of Serializability |
-| Data Independence | Conflict schedule |
-| DBMS Language | View Serializability |
+|  DBMS Tutorial | Transaction |
+| 1. DBMS vs File System | Transaction Property |
+| 2. DBMS Architecture | States of Transaction |
+| 3. Three schema Architecture | DBMS Schedule |
+| 4. Data model schema | Testing of Serializability |
+| 5. Data Independence | Conflict schedule |
+| 6. DBMS Language | View Serializability |
 | **Data modeling** | Recoverability of Schedule |
 | | Failure Classification |
 | ER model concept | Log-Based Recovery |
@@ -87,7 +87,7 @@ Using the database, you can easily retrieve, insert, and delete the information.
 
 ### Lesson includes:
 
-- SQL Query concepts.
+- SQL Query concepts.         
 - DDL - Data Definition Language
 - DML - Data Manipulation Language
 - DQL - Data Query Language
