@@ -64,7 +64,7 @@ Using the database, you can easily retrieve, insert, and delete the information.
 
 | :------------ | :--------------------- |
 | DBMS Tutorial | Transaction Processing |
-|===============|------------------------|
+
 | **DBMS Tutorial** | Transaction |
 | DBMS vs File System | Transaction Property |
 | DBMS Architecture | States of Transaction |
