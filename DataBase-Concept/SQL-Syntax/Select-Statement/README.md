@@ -77,3 +77,13 @@ Now, you will get following data:
 We can also use clauses like WHERE, GROUP BY, HAVING, ORDER BY with SELECT statement.
 
 Here a point is notable that only SELECT and FROM statements are necessary in SQL SELECT statements. Other clauses like WHERE, GROUP BY, ORDER BY, HAVING may be optional.
+
+
+
+SQL SELECT DISTINCT
+-------------------
+The **SQL DISTINCT** command is used with SELECT key word to retrieve only distinct or unique data.
+
+In a table, there may be a chance to exist a duplicate value and sometimes we want to retrieve only unique values. In such scenarios, SQL SELECT DISTINCT statement is used.
+
+Invalid HTML input. Cannot read properties of null (reading 'removeChild')
