@@ -242,7 +242,7 @@ records in a single query statement.
 **Example of insert a single record:**
 
 >**INSERT INTO** *Employee\_details* <br /> **(** &emsp; &emsp; *Emp\_ID, <br /> &emsp; &emsp; First\_name, <br /> &emsp; &emsp; Last\_name, <br />
-&emsp; &emsp; Salary, <br /> &emsp; &emsp; City* <br /> **) <br / > VALUES <br /> (** <br /> &emsp; &emsp; *101, <br /> &emsp; &emsp; Akhil, <br /> &emsp; &emsp; Sharma, <br /> &emsp; &emsp; 40000, <br /> vBangalore* <br /> **);**
+&emsp; &emsp; Salary, <br /> &emsp; &emsp; City* <br /> **) <br / > VALUES <br /> (** <br /> &emsp; &emsp; *101, <br /> &emsp; &emsp; Akhil, <br /> &emsp; &emsp; Sharma, <br /> &emsp; &emsp; 40000, <br /> &emsp; &emsp; Bangalore* <br /> **);**
 
 This example inserts **101** in the first column, **Akhil** in the
 second column, **Sharma** in the third column, **40000** in the fourth
@@ -251,19 +251,9 @@ column, and **Bangalore** in the last column of the table
 
 **Syntax of inserting a multiple records in a single query:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  INSERT INTO table\_name  
-2.  ( column\_name1, column\_name2, .…, column\_nameN)  
-3.  VALUES (value\_1, value\_2, ..…, value\_N), (value\_1, value\_2, ..…, value\_N),….;  
-
-INSERT INTO table\_name ( column\_name1, column\_name2, .…,
-column\_nameN) VALUES (value\_1, value\_2, ..…, value\_N), (value\_1,
-value\_2, ..…, value\_N),….;
+>**INSERT INTO** *table\_name* <br /> **(** *column\_name1, column\_name2, .…,
+column\_nameN* **) <br /> VALUES (** *value\_1, value\_2, ..…, value\_N* **), (** *value\_1,
+value\_2, ..…, value\_N* **)**,*….;*
 
 **Example of inserting multiple records in a single query:**
 
