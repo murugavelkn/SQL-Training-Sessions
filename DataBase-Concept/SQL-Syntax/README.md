@@ -36,22 +36,18 @@ query or statement.
 Most Important SQL Commands and Statements
 ------------------------------------------
 
-1.  [Select Statement](https://www.javatpoint.com/sql-select)
-2.  [Update Statement](https://www.javatpoint.com/sql-update)
-3.  [Delete Statement](https://www.javatpoint.com/sql-delete)
-4.  [Create Table
-    Statement](https://www.javatpoint.com/sql-create-table)
-5.  [Alter Table Statement](https://www.javatpoint.com/sql-alter-table)
-6.  [Drop Table Statement](https://www.javatpoint.com/sql-drop-table)
-7.  [Create Database
-    Statement](https://www.javatpoint.com/sql-create-database)
-8.  [Drop Database
-    Statement](https://www.javatpoint.com/sql-drop-database)
-9.  [Insert Into Statement](https://www.javatpoint.com/sql-insert)
-10. [Truncate Table
-    Statement](https://www.javatpoint.com/sql-truncate-table)
+1.  Select Statement
+2.  Update Statement
+3.  Delete Statement
+4.  Create Table Statement
+5.  Alter Table Statement
+6.  Drop Table Statement
+7.  Create Database Statement
+8.  Drop Database Statement
+9.  Insert Into Statement
+10. Truncate Table Statement
 11. Describe Statement
-12. [Distinct Clause](https://www.javatpoint.com/sql-select-distinct)
+12. Distinct Clause
 13. Commit Statement
 14. Rollback Statement
 15. Create Index Statement
