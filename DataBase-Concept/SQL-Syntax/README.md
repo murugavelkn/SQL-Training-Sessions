@@ -184,7 +184,7 @@ views, permissions, and triggers associated with that table.
 
 **Syntax of DROP TABLE Statement:**
 
->**DROP TABLE** *[ IF EXISTS ]* <br ?> *table\_name1, table\_name2, ……, table\_nameN;*
+>**DROP TABLE** *[ IF EXISTS ]* <br /> *table\_name1, table\_name2, ……, table\_nameN;*
 
 The above syntax of the drop statement deletes specified tables
 completely if they exist in the database.
