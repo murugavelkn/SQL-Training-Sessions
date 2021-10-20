@@ -32,6 +32,7 @@ A cylindrical structure is used to display the image of a database.
 The database has completed more than 50 years of journey of its evolution from flat-file system to relational and objects relational systems. It has gone through several generations.
 
 ##The Evolution##
+
 #####File-Based#####
 1968 was the year when File-Based database were introduced. In file-based databases, data was maintained in a flat file. Though files have many advantages, there are several limitations.
 
