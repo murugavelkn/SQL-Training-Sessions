@@ -123,11 +123,11 @@ This SQL statement creates the new table in the SQL database.
 
 
 **CREATE TABLE** *table\_name* **(** <br />
-    &emsp; *column\_name1 data\_type [column1 constraint(s)],<br />
-    &emsp; column\_name2 data\_type [column2 constraint(s)],<br />
-    .....,<br />
-    .....,<br />
-    column\_nameN data\_type [columnN constraint(s)],*<br />
+    &emsp; &emsp; &emsp; *column\_name1 data\_type [column1 constraint(s)],<br />
+    &emsp; &emsp; &emsp; column\_name2 data\_type [column2 constraint(s)],<br />
+    &emsp; &emsp; &emsp; .....,<br />
+    &emsp; &emsp; &emsp; .....,<br />
+    &emsp; &emsp; &emsp; column\_nameN data\_type [columnN constraint(s)],*<br />
     **PRIMARY KEY(** *one or more col* **) );**
 
 **Example of CREATE TABLE Statement:**
