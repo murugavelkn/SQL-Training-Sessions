@@ -1,5 +1,5 @@
 ## SQL Syntax
-==========
+
 
 When you want to do some operations on the data in the database, then you must have to write the query in the predefined syntax of SQL.
 
@@ -12,7 +12,7 @@ Following are some most important points about the SQL syntax which are to remem
 -   You can perform most of the action in a database with SQL statements.
 -   SQL syntax depends on relational algebra and tuple relational calculus.
 
-SQL Statement {.h2}
+SQL Statement 
 -------------
 
 [SQL](https://www.javatpoint.com/sql-tutorial)
