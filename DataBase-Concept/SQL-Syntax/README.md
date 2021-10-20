@@ -241,8 +241,8 @@ records in a single query statement.
 
 **Example of insert a single record:**
 
->**INSERT INTO** *Employee\_details* <br / > **(** &emsp; &emsp; *Emp\_ID, <br / > &emsp; &emsp; First\_name, <br / > &emsp; &emsp; Last\_name, <br / >
-&emsp; &emsp; Salary, <br / > &emsp; &emsp; City* <br / > **) <br / > VALUES <br / > (** <br / > &emsp; &emsp; *101, <br / > &emsp; &emsp; Akhil, <br / > &emsp; &emsp; Sharma, <br / > &emsp; &emsp; 40000, <br / > vBangalore* <br / > **);**
+>**INSERT INTO** *Employee\_details* <br /> **(** &emsp; &emsp; *Emp\_ID, <br /> &emsp; &emsp; First\_name, <br /> &emsp; &emsp; Last\_name, <br />
+&emsp; &emsp; Salary, <br /> &emsp; &emsp; City* <br /> **) <br / > VALUES <br /> (** <br /> &emsp; &emsp; *101, <br /> &emsp; &emsp; Akhil, <br /> &emsp; &emsp; Sharma, <br /> &emsp; &emsp; 40000, <br /> vBangalore* <br /> **);**
 
 This example inserts **101** in the first column, **Akhil** in the
 second column, **Sharma** in the third column, **40000** in the fourth
