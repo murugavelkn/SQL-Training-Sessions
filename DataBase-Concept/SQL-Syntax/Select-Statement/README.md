@@ -42,16 +42,16 @@ For example, let a database table: student_details;
 From the above example, select the first name of all the students. To do so, query should be like this:
 
 ```sh
-**SELECT** first\_name FROM student\_details;
+SELECT first\_name FROM student\_details;
 ```
 Note: the SQL commands are not case sensitive. We can also write the above SELECT statement as:
 
 ```sh
-select first\_name from student\_details;
+SELECT first\_name from student\_details;
 ```
 Now, you will get following data:
 
-|     |
+
 | --- |
 | Amar |
 | Akbar |
@@ -65,7 +65,7 @@ SELECT first\_name, last\_name FROM student_details;
 
 Now, you will get following data:
 
-|     |     |
+
 | --- | --- |
 | Amar | Sharma |
 | Akbar | Khan |
