@@ -25,7 +25,7 @@ The statements of SQL are very simple and easy to use and understand. They are l
 
 
 
-> SELECT "column\_name" FROM "table\_name";
+> **SELECT** "column\_name" FROM "table\_name";
 
 Each SQL statement begins with any of the SQL keywords and ends with the
 semicolon (;). The semicolon is used in the SQL for separating the
