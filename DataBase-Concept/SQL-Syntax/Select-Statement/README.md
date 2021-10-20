@@ -41,16 +41,14 @@ For example, let a database table: student_details;
 
 From the above example, select the first name of all the students. To do so, query should be like this:
 
-1.  SELECT first_name FROM student_details;  
-
-SELECT first\_name FROM student\_details;
-
+```sh
+**SELECT** first\_name FROM student\_details;
+```
 Note: the SQL commands are not case sensitive. We can also write the above SELECT statement as:
 
-1.  select first_name from student_details;  
-
+```sh
 select first\_name from student\_details;
-
+```
 Now, you will get following data:
 
 |     |
