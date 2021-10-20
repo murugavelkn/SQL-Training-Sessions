@@ -68,22 +68,11 @@ the output to the database user.
 
 **Syntax of SELECT Statement:**
 
-SELECT column\_name1, column\_name2, .…, column\_nameN <br />
-[ FROM table\_name ]
-<br /> [ WHERE condition ] [ ORDER BY order\_column\_name1 [ ASC | DESC ], .... ];
+> **SELECT** *column\_name1*, *column\_name2*, .…, *column\_nameN* <br />
+**[ FROM** *table\_name* **]**
+<br /> **[ WHERE** *condition* **]<br /> [ ORDER BY** *order\_column\_name1* **[ ASC | DESC ], .... ]**;
 
 **Example of SELECT Statement:**
-
-[](#)
-
-[](#)
-
-[](#)
-
-1.  SELECT Emp\_ID, First\_Name, Last\_Name, Salary, City  
-2.  FROM Employee\_details  
-3.  WHERE Salary = 100000  
-4.  ORDER BY Last\_Name  
 
 SELECT Emp\_ID, First\_Name, Last\_Name, Salary, City <br />FROM
 Employee\_details <br /> WHERE Salary = 100000 <br /> ORDER BY Last\_Name
