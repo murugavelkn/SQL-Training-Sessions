@@ -116,7 +116,7 @@ We can also use the Count() function with the WHERE clause. The Count Function w
 
 ### Syntax of Count() Function With WHERE clause in SQL
 
->**SELECT COUNT**(column\_name) **FROM** *table\_name* **WHERE** *\[condition\];*
+>**SELECT COUNT**(*column\_name*) **FROM** *table\_name* **WHERE** *\[condition\];*
 
 ### Examples of Count Function With WHERE clause in SQL
 
@@ -170,7 +170,7 @@ The DISTINCT keyword with the COUNT function shows only the numbers of unique ro
 
 ### Syntax of Count Function With DISTINCT keyword in SQL
 
->**SELECT COUNT** *(***DISTINCT** *column\_name***)** <br/>**FROM** *table\_name* <br/>**WHERE** *\[condition\];*
+>**SELECT COUNT** *(***DISTINCT** *column\_name***) <br/>FROM** *table\_name* <br/>**WHERE** *\[condition\];*
 
 ### Examples of Count Function With DISTINCT keyword in SQL
 
