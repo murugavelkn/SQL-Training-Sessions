@@ -205,7 +205,7 @@ system.
 **Syntax of CREATE DATABASE Statement:**
 
 
->**CREATE DATABASE* *database\_name;*
+>**CREATE DATABASE** *database\_name;*
 
 **Example of CREATE DATABASE Statement:**
 
@@ -242,7 +242,7 @@ records in a single query statement.
 **Example of insert a single record:**
 
 >**INSERT INTO** *Employee\_details* <br /> **(** &emsp; &emsp; *Emp\_ID, <br /> &emsp; &emsp; First\_name, <br /> &emsp; &emsp; Last\_name, <br />
-&emsp; &emsp; Salary, <br /> &emsp; &emsp; City* <br /> **) <br / > VALUES <br /> (** <br /> &emsp; &emsp; *101, <br /> &emsp; &emsp; Akhil, <br /> &emsp; &emsp; Sharma, <br /> &emsp; &emsp; 40000, <br /> &emsp; &emsp; Bangalore* <br /> **);**
+&emsp; &emsp; Salary, <br /> &emsp; &emsp; City* <br /> **) <br /> VALUES <br /> (** <br /> &emsp; &emsp; *101, <br /> &emsp; &emsp; Akhil, <br /> &emsp; &emsp; Sharma, <br /> &emsp; &emsp; 40000, <br /> &emsp; &emsp; Bangalore* <br /> **);**
 
 This example inserts **101** in the first column, **Akhil** in the
 second column, **Sharma** in the third column, **40000** in the fourth
@@ -304,7 +304,7 @@ keyword.
 
 **Syntax of DISTINCT Clause:**
 
->**SELECT DISTINCT** *column\_name1, column\_name2, ...* <br /> **FROM** *table\_name;*
+>**SELECT DISTINCT** *column\_name1, column\_name2, ..., column\_nameN* <br /> **FROM** *table\_name;*
 
 **Example of DISTINCT Clause:**
 
@@ -324,7 +324,7 @@ transaction of the SQL database.
 
 **Example of COMMIT Statement:**
 
->**DELETE FROM** *Employee\_details* <br/> **WHERE** *salary = 30000;* <br/> **COMMIT;**
+>**DELETE FROM** *Employee\_details* <br/> **WHERE** *salary = 30000;* <br/> <br/> **COMMIT;**
 
 This example deletes the records of those employees whose **Salary** is
 **30000** and then saves the changes permanently in the database.
@@ -338,7 +338,7 @@ yet saved to the SQL database.
 
 **Example of ROLLBACK Statement:**
 
->**DELETE FROM** *Employee\_details* <br/> **WHERE** *City = Mumbai;* <br/> **ROLLBACK;**
+>**DELETE FROM** *Employee\_details* <br/> **WHERE** *City = Mumbai;* <br/> <br/> **ROLLBACK;**
 
 This example deletes the records of those employees whose **City** is
 **Mumbai** and then undo the changes in the database.
