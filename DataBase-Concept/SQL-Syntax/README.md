@@ -29,7 +29,7 @@ The statements of SQL are very simple and easy to use and understand. They are l
 
 Each SQL statement begins with any of the SQL keywords and ends with the
 semicolon (;). The semicolon is used in the SQL for separating the
-multiple Sql statements which are going to execute in the same call. In
+multiple SQL statements which are going to execute in the same call. In
 this SQL tutorial, we will use the semicolon (;) at the end of each SQL
 query or statement.
 
@@ -61,27 +61,16 @@ Most Important SQL Commands and Statements
 **Let's discuss each statement in short one by one with syntax and one
 example:**
 
-### 1. SELECT Statement {.h3}
+### 1. SELECT Statement
 
 This SQL statement reads the data from the SQL database and shows it as
 the output to the database user.
 
 **Syntax of SELECT Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  SELECT column\_name1, column\_name2, .…, column\_nameN  
-2.      [ FROM table\_name ]  
-3.      [ WHERE condition ]  
-4.      [ ORDER BY order\_column\_name1 [ ASC | DESC ], .... ];  
-
-SELECT column\_name1, column\_name2, .…, column\_nameN [ FROM
-table\_name ] [ WHERE condition ] [ ORDER BY order\_column\_name1 [ ASC
-| DESC ], .... ];
+SELECT column\_name1, column\_name2, .…, column\_nameN <br />
+[ FROM table\_name ]
+<br /> [ WHERE condition ] [ ORDER BY order\_column\_name1 [ ASC | DESC ], .... ];
 
 **Example of SELECT Statement:**
 
@@ -96,10 +85,10 @@ table\_name ] [ WHERE condition ] [ ORDER BY order\_column\_name1 [ ASC
 3.  WHERE Salary = 100000  
 4.  ORDER BY Last\_Name  
 
-SELECT Emp\_ID, First\_Name, Last\_Name, Salary, City FROM
-Employee\_details WHERE Salary = 100000 ORDER BY Last\_Name
+SELECT Emp\_ID, First\_Name, Last\_Name, Salary, City <br />FROM
+Employee\_details <br /> WHERE Salary = 100000 <br /> ORDER BY Last\_Name
 
-This example shows the **Emp\_ID, First\_Name, Last\_Name, Salary, and
+This example shows the **Emp**\_**ID**, First\_Name, Last\_Name, Salary, and
 City** of those employees from the **Employee\_details** table whose
 **Salary** is **100000**. The output shows all the specified details
 according to the ascending alphabetical order of **Last\_Name**.
