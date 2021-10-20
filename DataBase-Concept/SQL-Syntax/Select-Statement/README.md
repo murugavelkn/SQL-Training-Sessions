@@ -8,7 +8,7 @@ In simple words, we can say that the select statement used to query or retrieve 
 Let's see the syntax of select statement.
 
 ```sh
-SELECT** *expressions
+SELECT expressions
 FROM tables
 WHERE conditions;
 ```
