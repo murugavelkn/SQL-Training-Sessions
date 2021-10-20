@@ -170,7 +170,7 @@ The DISTINCT keyword with the COUNT function shows only the numbers of unique ro
 
 ### Syntax of Count Function With DISTINCT keyword in SQL
 
->**SELECT COUNT** *(***DISTINCT** *column\_name* **)** <br/> **FROM** *table\_name* <br/>**WHERE** *\[condition\];*
+>**SELECT COUNT** *(* **DISTINCT** *column\_name* **)** <br/> **FROM** *table\_name* <br/>**WHERE** *\[condition\];*
 
 ### Examples of Count Function With DISTINCT keyword in SQL
 
