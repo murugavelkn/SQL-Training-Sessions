@@ -146,168 +146,89 @@ First\_Name, Last\_Name, Salary,** and **City**. The **Emp\_Id** column
 in the table acts as a **primary key**, which means that the Emp\_Id
 column cannot contain duplicate values and null values.
 
-### 5. ALTER TABLE Statement {.h3}
+### 5. ALTER TABLE Statement
 
 This SQL statement adds, deletes, and modifies the columns of the table
 in the SQL database.
 
 **Syntax of ALTER TABLE Statement:**
 
-[](#)
 
-[](#)
-
-[](#)
-
-1.  ALTER TABLE table\_name ADD column\_name datatype[(size)];  
-
-ALTER TABLE table\_name ADD column\_name datatype[(size)];
+> **ALTER TABLE** *table\_name* <br /> **ADD** *column\_name datatype[(size)];*
 
 The above SQL alter statement adds the column with its datatype in the
 existing database table.
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  ALTER TABLE table\_name MODIFY column\_name column\_datatype[(size)];  
-
-ALTER TABLE table\_name MODIFY column\_name column\_datatype[(size)];
+> **ALTER TABLE** *table\_name* <br /> **MODIFY** *column\_name column\_datatype[(size)];*
 
 The above 'SQL alter statement' renames the old column name to the new
 column name of the existing database table.
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  ALTER TABLE table\_name DROP COLUMN column\_name;  
-
-ALTER TABLE table\_name DROP COLUMN column\_name;
+>**ALTER TABLE** *table\_name* <br /> **DROP COLUMN** *column\_name;*
 
 The above SQL alter statement deletes the column of the existing
 database table.
 
 **Example of ALTER TABLE Statement:**
 
-[](#)
 
-[](#)
-
-[](#)
-
-1.  ALTER TABLE Employee\_details   
-2.  ADD Designation VARCHAR(18);  
-
-ALTER TABLE Employee\_details ADD Designation VARCHAR(18);
+>**ALTER TABLE** *Employee\_details* <br /> **ADD** *Designation VARCHAR(18);*
 
 This example adds the new field whose name is **Designation** with size
 **18** in the **Employee\_details** table of the SQL database.
 
-### 6. DROP TABLE Statement {.h3}
+### 6. DROP TABLE Statement
 
 This SQL statement deletes or removes the table and the structure,
 views, permissions, and triggers associated with that table.
 
 **Syntax of DROP TABLE Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  DROP TABLE [ IF EXISTS ]  
-2.  table\_name1, table\_name2, ……, table\_nameN;  
-
-DROP TABLE [ IF EXISTS ] table\_name1, table\_name2, ……, table\_nameN;
+>**DROP TABLE** *[ IF EXISTS ]* <br ?> *table\_name1, table\_name2, ……, table\_nameN;*
 
 The above syntax of the drop statement deletes specified tables
 completely if they exist in the database.
 
 **Example of DROP TABLE Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  DROP TABLE Employee\_details;   
-
-DROP TABLE Employee\_details;
+>**DROP TABLE** *Employee\_details;*
 
 This example drops the **Employee\_details** table if it exists in the
 SQL database. This removes the complete information if available in the
 table.
 
-### 7. CREATE DATABASE Statement {.h3}
+### 7. CREATE DATABASE Statement
 
 This SQL statement creates the new database in the database management
 system.
 
 **Syntax of CREATE DATABASE Statement:**
 
-[](#)
 
-[](#)
-
-[](#)
-
-1.  CREATE DATABASE database\_name;  
-
-CREATE DATABASE database\_name;
+>**CREATE DATABASE* *database\_name;*
 
 **Example of CREATE DATABASE Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  CREATE DATABASE Company;   
-
-CREATE DATABASE Company;
+>**CREATE DATABASE** *Company;*
 
 The above example creates the company database in the system.
 
-### 8. DROP DATABASE Statement {.h3}
+### 8. DROP DATABASE Statement
 
 This SQL statement deletes the existing database with all the data
 tables and views from the database management system.
 
 **Syntax of DROP DATABASE Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  DROP DATABASE database\_name;  
-
-DROP DATABASE database\_name;
+>**DROP DATABASE** *database\_name;*
 
 **Example of DROP DATABASE Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  DROP DATABASE Company;   
-
-DROP DATABASE Company;
+>**DROP DATABASE** *Company;*
 
 The above example deletes the company database from the system.
 
-### 9. INSERT INTO Statement {.h3}
+### 9. INSERT INTO Statement
 
 This SQL statement inserts the data or records in the existing table of
 the SQL database. This statement can easily insert single and multiple
@@ -315,26 +236,8 @@ records in a single query statement.
 
 **Syntax of insert a single record:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  INSERT INTO table\_name  
-2.  (   
-3.  column\_name1,   
-4.  column\_name2, .…,   
-5.  column\_nameN  
-6.  )  
-7.  VALUES   
-8.  (value\_1,   
-9.  value\_2, ..…,   
-10. value\_N  
-11. );  
-
-INSERT INTO table\_name ( column\_name1, column\_name2, .…,
-column\_nameN ) VALUES (value\_1, value\_2, ..…, value\_N );
+**INSERT INTO** *table\_name* <bt /> **(** *column\_name1, <br / >column\_name2, <br / > .…, <br / >
+column\_nameN* <br / > **) <br / > VALUES <br / >(** *value\_1, <br / > value\_2, <br / > ..…, <br / > value\_N <br / >* **);**
 
 **Example of insert a single record:**
 
@@ -360,8 +263,8 @@ column\_nameN ) VALUES (value\_1, value\_2, ..…, value\_N );
 14. Bangalore  
 15. );  
 
-INSERT INTO Employee\_details ( Emp\_ID, First\_name, Last\_name,
-Salary, City ) VALUES (101, Akhil, Sharma, 40000, Bangalore );
+>**INSERT INTO** *Employee\_details* <br / > **(** *Emp\_ID, <br / > First\_name, <br / > Last\_name, <br / >
+Salary, <br / > City* <br / > **) <br / > VALUES <br / > (** <br / > *101, <br / > Akhil, <br / > Sharma, <br / > 40000, <br / > Bangalore* <br / > **);**
 
 This example inserts **101** in the first column, **Akhil** in the
 second column, **Sharma** in the third column, **40000** in the fourth
