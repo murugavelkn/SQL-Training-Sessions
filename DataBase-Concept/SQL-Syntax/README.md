@@ -36,23 +36,23 @@ query or statement.
 Most Important SQL Commands and Statements
 ------------------------------------------
 
-&emsp; &emsp; &emsp; &emsp; 1.  Select Statement
-&emsp; &emsp; &emsp; &emsp; 2.  Update Statement
-&emsp; &emsp; &emsp; &emsp; 3.  Delete Statement
-&emsp; &emsp; &emsp; &emsp; 4.  Create Table Statement
-&emsp; &emsp; &emsp; &emsp; 5.  Alter Table Statement
-&emsp; &emsp; &emsp; &emsp; 6.  Drop Table Statement
-&emsp; &emsp; &emsp; &emsp; 7.  Create Database Statement
-&emsp; &emsp; &emsp; &emsp; 8.  Drop Database Statement
-&emsp; &emsp; &emsp; &emsp; 9.  Insert Into Statement
-&emsp; &emsp; &emsp; &emsp; 10. Truncate Table Statement
-&emsp; &emsp; &emsp; &emsp; 11. Describe Statement
-&emsp; &emsp; &emsp; &emsp; 12. Distinct Clause
-&emsp; &emsp; &emsp; &emsp; 13. Commit Statement
-&emsp; &emsp; &emsp; &emsp; 14. Rollback Statement
-&emsp; &emsp; &emsp; &emsp; 15. Create Index Statement
-&emsp; &emsp; &emsp; &emsp; 16. Drop Index Statement
-&emsp; &emsp; &emsp; &emsp; 17. Use Statement
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 1.  Select Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 2.  Update Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 3.  Delete Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 4.  Create Table Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 5.  Alter Table Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 6.  Drop Table Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 7.  Create Database Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 8.  Drop Database Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 9.  Insert Into Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 10. Truncate Table Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 11. Describe Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 12. Distinct Clause <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 13. Commit Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 14. Rollback Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 15. Create Index Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 16. Drop Index Statement <br/>
+&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 17. Use Statement <br/>
 
 **Let's discuss each statement in short one by one with syntax and one
 example:**
