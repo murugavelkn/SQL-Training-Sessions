@@ -82,124 +82,63 @@ City** of those employees from the **Employee\_details** table whose
 **Salary** is **100000**. The output shows all the specified details
 according to the ascending alphabetical order of **Last\_Name**.
 
-### 3. UPDATE Statement {.h3}
+### 3. UPDATE Statement
 
 This SQL statement changes or modifies the stored data in the SQL
 database.
 
 **Syntax of UPDATE Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  UPDATE table\_name  
-2.  SET column\_name1 = new\_value\_1, column\_name2 = new\_value\_2, ...., column\_nameN = new\_value\_N  
-3.  [ WHERE  CONDITION ];  
-
-UPDATE table\_name SET column\_name1 = new\_value\_1, column\_name2 =
-new\_value\_2, ...., column\_nameN = new\_value\_N [ WHERE CONDITION ];
+>**UPDATE** *table\_name* <br /> **SET** *column\_name1 = new\_value\_1, column\_name2 =
+new\_value\_2, ...., column\_nameN = new\_value\_N* <br /> **[ WHERE** *CONDITION* **];**
 
 **Example of UPDATE Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  UPDATE Employee\_details  
-2.  SET Salary = 100000  
-3.  WHERE Emp\_ID = 10;  
-
-UPDATE Employee\_details SET Salary = 100000 WHERE Emp\_ID = 10;
+>**UPDATE** *Employee\_details* <br /> **SET** *Salary = 100000* <br /> **WHERE** *Emp\_ID = 10*;
 
 This example changes the **Salary** of those employees of the
 **Employee\_detail**s table whose **Emp\_ID** is **10** in the table.
 
-### 3. DELETE Statement {.h3}
+### 3. DELETE Statement
 
 This SQL statement deletes the stored data from the SQL database.
 
 **Syntax of DELETE Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  DELETE FROM table\_name  
-2.  [ WHERE CONDITION ];  
-
-DELETE FROM table\_name [ WHERE CONDITION ];
+>**DELETE FROM** *table\_name* <br /> **[ WHERE CONDITION ];**
 
 **Example of DELETE Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  DELETE FROM Employee\_details  
-2.  WHERE First\_Name = 'Sumit';  
-
-DELETE FROM Employee\_details WHERE First\_Name = 'Sumit';
+**DELETE FROM** *Employee\_details* <br /> **WHERE** *First\_Name = 'Sumit';*
 
 This example deletes the record of those employees from the
 **Employee\_details** table whose **First\_Name** is **Sumit** in the
 table.
 
-### 4. CREATE TABLE Statement {.h3}
+### 4. CREATE TABLE Statement
 
 This SQL statement creates the new table in the SQL database.
 
 **Syntax of CREATE TABLE Statement:**
 
-[](#)
 
-[](#)
-
-[](#)
-
-1.  CREATE TABLE table\_name  
-2.  (  
-3.  column\_name1 data\_type [column1 constraint(s)],  
-4.  column\_name2 data\_type [column2 constraint(s)],  
-5.  .....  
-6.  .....,  
-7.  column\_nameN data\_type [columnN constraint(s)],  
-8.  PRIMARY KEY(one or more col)  
-9.  );  
-
-CREATE TABLE table\_name ( column\_name1 data\_type [column1
-constraint(s)], column\_name2 data\_type [column2 constraint(s)], .....
-....., column\_nameN data\_type [columnN constraint(s)], PRIMARY KEY(one
-or more col) );
+**CREATE TABLE** *table\_name* **(**
+    *column\_name1 data\_type [column1 constraint(s)],
+    column\_name2 data\_type [column2 constraint(s)],
+    .....,
+    .....,
+    column\_nameN data\_type [columnN constraint(s)],*
+    **PRIMARY KEY(** *one or more col* **) );**
 
 **Example of CREATE TABLE Statement:**
 
-[](#)
-
-[](#)
-
-[](#)
-
-1.  CREATE TABLE Employee\_details(  
-2.        Emp\_Id NUMBER(4) NOT NULL,  
-3.        First\_name VARCHAR(30),  
-4.        Last\_name VARCHAR(30),  
-5.        Salary Money,  
-6.        City VARCHAR(30),  
-7.        PRIMARY KEY (Emp\_Id)  
-8.  );  
-
-CREATE TABLE Employee\_details( Emp\_Id NUMBER(4) NOT NULL, First\_name
-VARCHAR(30), Last\_name VARCHAR(30), Salary Money, City VARCHAR(30),
-PRIMARY KEY (Emp\_Id) );
+**CREATE TABLE** *Employee\_details* **(**
+    *Emp\_Id NUMBER(4) NOT NULL,
+    First\_name VARCHAR(30),
+    Last\_name VARCHAR(30),
+    Salary Money,
+    City VARCHAR(30),*
+**PRIMARY KEY (** *Emp\_Id* **) );**
 
 This example creates the table **Employee\_details** with five columns
 or fields in the SQL database. The fields in the table are **Emp\_Id,
