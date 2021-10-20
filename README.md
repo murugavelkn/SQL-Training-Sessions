@@ -70,10 +70,10 @@ Using the database, you can easily retrieve, insert, and delete the information.
 
 - [SQL Query concepts](DataBase-Concept/SQL-Tutorial/README.md)   
 - DDL - Data Definition Language
-- DML - Data Manipulation Language
-        [1. SQL syntax](DataBase-Concept/SQL-Syntax/README.md)
-        [2. Select Statement](DataBase-Concept/SQL-Syntax/Select-Statement/README.md)
-        [3. Select Count Statement](DataBase-Concept/SQL-Syntax/SQL-Select-Count/README.md)
+- DML - Data Manipulation Language <br/>
+  &emsp; &emsp; &emsp; &emsp; [1. SQL syntax](DataBase-Concept/SQL-Syntax/README.md) <br/>
+  &emsp; &emsp; &emsp; &emsp; [2. Select Statement](DataBase-Concept/SQL-Syntax/Select-Statement/README.md) <br/>
+  &emsp; &emsp; &emsp; &emsp; [3. Select Count Statement](DataBase-Concept/SQL-Syntax/SQL-Select-Count/README.md) <br/>
 - DQL - Data Query Language
 - Views
 - Stored Procedure
