@@ -7,12 +7,9 @@ In simple words, we can say that the select statement used to query or retrieve 
 
 Let's see the syntax of select statement.
 
-1.  SELECT expressions  
-2.  FROM tables  
-3.  WHERE conditions;  
-
-SELECT expressions FROM tables WHERE conditions;
-
+```sh
+SELECT expressions <br/> FROM tables <br/> WHERE conditions;
+```
 Here expression is the column that we want to retrieve.
 
 Tables indicate the tables, we want to retrieve records from.
