@@ -71,7 +71,7 @@ Using the database, you can easily retrieve, insert, and delete the information.
 - [SQL Query concepts](DataBase-Concept/SQL-Tutorial/README.md)   
 - DDL - Data Definition Language
 - DML - Data Manipulation Language <br/>
-- DQL - Data Query Language
+- DQL - Data Query Language <br/>
 &emsp; &emsp;  [1. SQL syntax](DataBase-Concept/SQL-Syntax/README.md) <br/>
 &emsp; &emsp;  [2. Select Statement](DataBase-Concept/SQL-Syntax/Select-Statement/README.md) <br/>
 &emsp; &emsp;  [3. Select Count Statement](DataBase-Concept/SQL-Syntax/SQL-Select-Count/README.md) <br/>
