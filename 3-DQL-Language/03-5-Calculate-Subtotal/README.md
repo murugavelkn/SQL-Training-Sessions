@@ -1,4 +1,3 @@
-[![ApexSQL pricing](https://www.apexsql.com/images/blog-footer-banners/Free-tools-B.png)](https://www.apexsql.com/freesqltools/?utm_source=sqlshack&amp;utm_medium=banner&amp;utm_campaign=[SQLShack]ApexSQLfreetoolstop)
 
 In this article, we will learn how to calculate and add a subtotal in SQL queries.
 
@@ -7,9 +6,9 @@ Introduction
 
 A subtotal is a figure that shows the sum of similar sets of data but it does not indicate the final total. Subtotals are mainly used in sales, finance, and accounting reports. At the same time, we can notice this figure commonly in the receipts and they commonly locate before tax.
 
-![Subtotal in a receipt ](/wp-content/uploads/2021/07/subtotal-in-a-receipt.png)
+![Subtotal in a receipt ](https://www.sqlshack.com/wp-content/uploads/2021/07/subtotal-in-a-receipt.png)
 
-![Subtotal in a receipt ](/wp-content/uploads/2021/07/subtotal-in-a-receipt.png)
+![Subtotal in a receipt ](https://www.sqlshack.com/wp-content/uploads/2021/07/subtotal-in-a-receipt.png)
 
 Calculating a subtotal in SQL query can be a bit complicated than the common aggregate queries. However, SQL Server offers some GROUP BY extensions that help us to resolve this issue. In the next section of this article, we will discover these extensions which help to calculate a subtotal in SQL query.
 
