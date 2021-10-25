@@ -270,8 +270,8 @@ In this article, we have learned the usage of the ROLLUP and GROUPING SETS exten
 
 ### Related posts:
 
-1.  [GROUP BY ROLLUP for Data Analysis](https://www.sqlshack.com/group-by-rollup-for-data-analysis/ "GROUP BY ROLLUP for Data Analysis-x")
-2.  [Develop your extensions for Azure Data Studio](https://www.sqlshack.com/develop-your-extensions-for-azure-data-studio/ "Develop your extensions for Azure Data Studio-x")
-3.  [Static and Dynamic SQL Pivot and Unpivot relational operator overview](https://www.sqlshack.com/static-and-dynamic-sql-pivot-and-unpivot-relational-operator-overview/ "Static and Dynamic SQL Pivot and Unpivot relational operator overview-x")
-4.  [Revisión del operador relacional y descripción general de Pivot y Unpivot estático y dinámico de SQL](https://www.sqlshack.com/es/revision-del-operador-relacional-y-descripcion-general-de-pivot-y-unpivot-estatico-y-dinamico-de-sql/ "Revisión del operador relacional y descripción general de  Pivot y Unpivot estático y dinámico de SQL-x")
-5.  [Data science in SQL Server: Data analysis and transformation – grouping and aggregating data II](https://www.sqlshack.com/data-science-in-sql-server-data-analysis-and-transformation-grouping-and-aggregating-data-ii/ "Data science in SQL Server: Data analysis and transformation – grouping and aggregating data II-x")
+1.  [GROUP BY ROLLUP for Data Analysis](https://www.sqlshack.com/group-by-rollup-for-data-analysis_x/ "GROUP BY ROLLUP for Data Analysis")
+2.  [Develop your extensions for Azure Data Studio](https://www.sqlshack.com/develop-your-extensions-for-azure-data-studio_x/ "Develop your extensions for Azure Data Studio")
+3.  [Static and Dynamic SQL Pivot and Unpivot relational operator overview](https://www.sqlshack.com/static-and-dynamic-sql-pivot-and-unpivot-relational-operator-overview_x/ "Static and Dynamic SQL Pivot and Unpivot relational operator overview")
+4.  [Revisión del operador relacional y descripción general de Pivot y Unpivot estático y dinámico de SQL](https://www.sqlshack.com/es/revision-del-operador-relacional-y-descripcion-general-de-pivot-y-unpivot-estatico-y-dinamico-de-sql_x/ "Revisión del operador relacional y descripción general de  Pivot y Unpivot estático y dinámico de SQL")
+5.  [Data science in SQL Server: Data analysis and transformation – grouping and aggregating data II](https://www.sqlshack.com/data-science-in-sql-server-data-analysis-and-transformation-grouping-and-aggregating-data-ii_x/ "Data science in SQL Server: Data analysis and transformation – grouping and aggregating data II")
