@@ -15,7 +15,7 @@ Pre-Requirement
 
 In the following examples of the article, we will use the SalesList sample table and the following query helps to create this example table and it will also populate some sample data to this table.
 
-![SQL-01](3-DQL-Language/03-5-Calculate-Subtotal/SQL-Source/01-SQL-Query.sql)
+![SQL-01](SQL-Source/01-SQL-Query.sql)
 
 ![Create an example table in SQL Server](/wp-content/uploads/2021/07/create-an-example-table-in-sql-server-e1627645960329.png)
 
