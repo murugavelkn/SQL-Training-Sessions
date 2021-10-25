@@ -8,8 +8,6 @@ A subtotal is a figure that shows the sum of similar sets of data but it does no
 
 ![Subtotal in a receipt ](https://www.sqlshack.com/wp-content/uploads/2021/07/subtotal-in-a-receipt.png)
 
-![Subtotal in a receipt ](https://www.sqlshack.com/wp-content/uploads/2021/07/subtotal-in-a-receipt.png)
-
 Calculating a subtotal in SQL query can be a bit complicated than the common aggregate queries. However, SQL Server offers some GROUP BY extensions that help us to resolve this issue. In the next section of this article, we will discover these extensions which help to calculate a subtotal in SQL query.
 
 Pre-Requirement
@@ -17,9 +15,7 @@ Pre-Requirement
 
 In the following examples of the article, we will use the SalesList sample table and the following query helps to create this example table and it will also populate some sample data to this table.
 
-|     |     |
-| --- | --- |
-| 1<br><br>2<br><br>3<br><br>4<br><br>5<br><br>6<br><br>7<br><br>8<br><br>9<br><br>10<br><br>11<br><br>12<br><br>13<br><br>14<br><br>15<br><br>16 | CREATE  TABLE<br><br>SalesList<br><br>(SalesMonth  NVARCHAR(20),  SalesQuartesVARCHAR(5),  SalesYearSMALLINT,  SalesTotal  MONEY)<br><br>GO<br><br>INSERT  INTOSalesList(SalesMonth,SalesQuartes,SalesYear,SalesTotal)  VALUES  (N'March','Q1',2019,60)<br><br>INSERT  INTO  SalesList(SalesMonth,SalesQuartes,SalesYear,SalesTotal)  VALUES  (N'March','Q1',2020,50)<br><br>INSERT  INTO  SalesList(SalesMonth,SalesQuartes,SalesYear,SalesTotal)  VALUES  (N'May','Q2',2019,30)<br><br>INSERT  INTO  SalesList(SalesMonth,SalesQuartes,SalesYear,SalesTotal)  VALUES  (N'July','Q3',2020,10)<br><br>INSERT  INTO  SalesList(SalesMonth,SalesQuartes,SalesYear,SalesTotal)  VALUES  (N'November','Q4',2019,120)<br><br>INSERT  INTO  SalesList(SalesMonth,SalesQuartes,SalesYear,SalesTotal)  VALUES  (N'October','Q4',2019,150)<br><br>INSERT  INTO  SalesList(SalesMonth,SalesQuartes,SalesYear,SalesTotal)  VALUES  (N'November','Q4',2019,180)<br><br>INSERT  INTO  SalesList(SalesMonth,SalesQuartes,SalesYear,SalesTotal)  VALUES  (N'November','Q4',2020,120)<br><br>INSERT  INTO  SalesList(SalesMonth,SalesQuartes,SalesYear,SalesTotal)  VALUES  (N'July','Q3',2019,160)<br><br>INSERT  INTO  SalesList(SalesMonth,SalesQuartes,SalesYear,SalesTotal)  VALUES  (N'March','Q1',2020,170)<br><br>GO<br><br>SELECT*  FROM  SalesList |
+![SQL-01](3-DQL-Language/03-5-Calculate-Subtotal/SQL-Source/01-SQL-Query.sql)
 
 ![Create an example table in SQL Server](/wp-content/uploads/2021/07/create-an-example-table-in-sql-server-e1627645960329.png)
 
