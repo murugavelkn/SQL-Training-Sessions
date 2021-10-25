@@ -75,6 +75,7 @@ Using the database, you can easily retrieve, insert, and delete the information.
 &emsp; &emsp;  [1. SQL syntax](DataBase-Concept/SQL-Syntax/README.md) <br/>
 &emsp; &emsp;  [2. Select Statement](DataBase-Concept/SQL-Syntax/Select-Statement/README.md) <br/>
 &emsp; &emsp;  [3. Select Count Statement](DataBase-Concept/SQL-Syntax/SQL-Select-Count/README.md) <br/>
+&emsp; &emsp;  [5. Calculating Subtotal in SQL](3-DQL-Language/03-5-Calculate-Subtotal/README.md) <br/>
 - Views
 - Stored Procedure
 - Scalar Functions
