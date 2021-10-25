@@ -17,6 +17,10 @@ In the following examples of the article, we will use the SalesList sample table
 
 ![SQL-01](SQL-Source/01-SQL-Query.sql)
 
+'''SQL
+  SELECT now();
+'''
+
 ![Create an example table in SQL Server](/wp-content/uploads/2021/07/create-an-example-table-in-sql-server-e1627645960329.png)
 
 ![Create an example table in SQL Server](/wp-content/uploads/2021/07/create-an-example-table-in-sql-server-e1627645960329.png)
