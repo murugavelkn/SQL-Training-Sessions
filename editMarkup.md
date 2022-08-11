@@ -6,6 +6,11 @@ tester
 SELECT first_name, last_name FROM student_details;
 ```
 
+```SQL
+SELECT * FROM Students;
+```
+
+
 ```html
 <p> This is paragraph tag </p>
 ```
