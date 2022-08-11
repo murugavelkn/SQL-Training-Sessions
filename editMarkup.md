@@ -82,4 +82,4 @@ This is an example of how to create a footnote[^2] in Markdown.
 
 **Executive Work**
 
-***Welcomw***
+***Welcome***
