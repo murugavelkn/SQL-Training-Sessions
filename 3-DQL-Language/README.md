@@ -7,7 +7,7 @@ In simple words, we can say that the select statement used to query or retrieve 
 
 Let's see the syntax of select statement.
 
-```MySQL
+```SQL
 SELECT expressions
 FROM tables
 WHERE conditions;
@@ -41,12 +41,12 @@ For example, let a database table: student_details;
 
 From the above example, select the first name of all the students. To do so, query should be like this:
 
-```MySQL
+```SQL
 SELECT first_name FROM student_details;
 ```
 Note: the SQL commands are not case sensitive. We can also write the above SELECT statement as:
 
-```MySQL
+```SQL
 SELECT first_name from student_details;
 ```
 Now, you will get following data:
@@ -61,7 +61,7 @@ Now, you will get following data:
 ```
 We can also retrieve data from more than one column. For example, to select first name and last name of all the students, you need to write
 
-```MySQL
+```SQL
 SELECT first_name, last_name FROM student_details;
 ```
 Now, you will get following data:
@@ -114,7 +114,3 @@ Now, it will return two rows.
 | --- |
 | Lucknow |
 | Varanasi |
-
-```html
-<p> my code </p>
-```
