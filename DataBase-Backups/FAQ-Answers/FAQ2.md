@@ -1,4 +1,4 @@
-
+**Creating a copy only backup to avoid breaking a backup chain**
 
 <p>I was recently asked to do an extra "adhoc" backup of a live database. This was so that the backup file could
    be periodically restored into another database which was used for testing. The intention was to keep the backup file
