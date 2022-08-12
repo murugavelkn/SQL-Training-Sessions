@@ -1,13 +1,13 @@
-c
 
-I was recently asked to do an extra "adhoc" backup of a live database. This was so that the backup file could
+
+<p>I was recently asked to do an extra "adhoc" backup of a live database. This was so that the backup file could
    be periodically restored into another database which was used for testing. The intention was to keep the backup file
    so that the testing database could be restored to
-   be a “clean” copy of the live data after each testing session.<br /><br />
+   be a “clean” copy of the live data after each testing session.</p><br /><br />
 
-   This might seem like a simple enough task, but there is a problem with doing a one off backup like this.
+   <p>This might seem like a simple enough task, but there is a problem with doing a one off backup like this.
    This is because the extra backup potentially breaks the back up chain, and could cause problems if a database
-   restore becomes necessary before the next full backup. <br /><br />
+   restore becomes necessary before the next full backup.</p> <br /><br />
 
    In our situation the live database has a full backup at a weekend with nightly differential
    backups taken during the week. Restoring the backup then involves restoring the last full backup
@@ -35,14 +35,11 @@ I was recently asked to do an extra "adhoc" backup of a live database. This was 
 
    Now onto the practicalities. To specify a copy only full backup using TSQL the syntax is:<br /><br />
 
-   <div class="code">
-   <span style='color:blue'>BACKUP</span>
-   <span style='color:blue'>DATABASE</span> MyDatabase <span style='color:blue'>TO</span>
-   MyBackupDevice <span style='color:blue'>WITH</span> <span style='color:blue'>COPY_ONLY</span>
-   </div>
+   ```SQL
+   BACKUP DATABASE MyDatabase TO  MyBackupDevice WITH COPY_ONLY
+  ```
 
    To specify a copy only backup within the GUI version in SQL Server 2008, just check the 'Copy Only Backup'
    checkbox in the Backup window :<br />
 
- <img alt="Copy Only Backup GUI" src="../ArticleImages/Copy Only Backups.jpg"/>
-   
+ <img src= https://www.sqlmatters.com/ArticleImages/Copy%20Only%20Backups.jpg />
