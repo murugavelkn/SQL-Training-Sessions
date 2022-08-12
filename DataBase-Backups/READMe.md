@@ -11,5 +11,5 @@
 ### FAQ
 
 [FAQ 1 - **SQL SERVER DIFFERENTIAL RESTORE FAILS WITH ERROR: “THIS DIFFERENTIAL BACKUP CANNOT BE RESTORED BECAUSE THE DATABASE HAS NOT BEEN RESTORED TO THE CORRECT EARLIER STATE”**](FAQ-Answers/FAQ1.md)
-
 [FAQ 2 - **Creating a copy only backup to avoid breaking a backup chain**](FAQ-Answers/FAQ2.md)
+[FAQ 3 - **Checking the disk space used by each database on a server**](FAQ-Answers/FAQ3.md)
